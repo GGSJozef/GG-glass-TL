@@ -248,7 +248,7 @@ function expand(S){if(!S||S.hodnoty||!S.v)return S;const v=S.v;
       akustika:[['Vážená nepriezvučnosť Rw (C; Ctr)',rw?rw+' dB':'–'],['Ra',v.Ra?v.Ra+' dB':'–'],['Ra,tr',v.Ratr?v.Ratr+' dB':'–'],['STC (ASTM E413) / OITC (ASTM E1332)',`${+v.STC?v.STC:'–'} / ${+v.OITC?v.OITC:'–'}`]],
       energeticke:[['Priepustnosť slnečnej energie TE',pc(v.TE)],['Priepustnosť UV žiarenia',pc(v.UV==='—'?'':v.UV)],['Odrazivosť energie vonkajšia / vnútorná',`${pc(v.Ree)} / ${pc(v.Rei)}`],['Absorpcia A1 / A2 / A3',[v.AE1,v.AE2,v.AE3].filter(x=>x!==''&&x!=null).map(pc).join(' / ')],['Solárny faktor g',d(v.g)],['Koeficient tienenia SC',d(v.SC)],['Súčiniteľ prechodu tepla Ug (EN 673)',d(v.Ug)+' W/(m²·K)']],
       bezpecnost:[['Odolnosť proti nárazu (EN 12600)',String(v.EN12600||'–').replace(/\//g,' / ')],['Odolnosť proti vlámaniu (EN 356)',String(v.EN356||'–').replace(/\//g,' / ')],['Nominálna hrúbka',d(v.hrubka)+' mm'],['Plošná hmotnosť',(v.hm||'–')+' kg/m²']]},
-    poznamka:POZN+(/Simul/i.test(v.aku||'')?' Akustické hodnoty sú simulované.':''),datum:S.datum,vypracoval:S.vypracoval||'Jozef Sliva, sliva@glassgallery.sk'}}
+    poznamka:POZN+((v.aku==='S'||/Simul/i.test(v.aku||''))?' Akustické hodnoty sú simulované.':''),datum:S.datum,vypracoval:S.vypracoval||'Jozef Sliva, sliva@glassgallery.sk'}}
 const rwOf=x=>{const n=parseInt(String(x?.kpi?.Rw??''));return isNaN(n)?null:n};
 const typOf=x=>(x.vrstvy||[]).filter(v=>v.type==='pane').length===3?'trojsklo':'dvojsklo';
 function renderArchive(){
