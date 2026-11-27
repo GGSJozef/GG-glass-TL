@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<title>Technické listy skla</title>
+<style>
+/* VOICE: vecný firemný nástroj GLASSgallery, ako technický list zo sklárne
+   IDEA: rez izolačným sklom – sklo, fólie, rámiky a pokovenie, ktoré sa skladá podľa výberu
+   PICTURE: veľký živý rez skladbou vedľa výberu skla
+   COLOUR and TYPE: biela, tmavá #20201F, červená GLASSgallery #C41230, koralová a svetlá ružová; Calibri
+   LAYOUT: hore výber a rez, pod tým stav listu, potom archív a požiadavky */
+@font-face{font-family:GGCal;src:url(fonts/Carlito-Regular.ttf);font-weight:400}
+@font-face{font-family:GGCal;src:url(fonts/Carlito-Bold.ttf);font-weight:700}
+:root{color-scheme:light dark;--bg:light-dark(#ffffff,#161615);--ink:light-dark(#20201F,#f1efec);--mute:light-dark(#5f5e5a,#b4b1ab);--line:light-dark(#e6e2df,#34322f);--red:light-dark(#C41230,#ff4d67);--coral:#CE7067;--soft:light-dark(#F9ECEC,#2a1d1f);--grey:light-dark(#F2F2F2,#222120);--card:light-dark(#fff,#1d1c1b)}
+:root[data-theme=light]{color-scheme:light}:root[data-theme=dark]{color-scheme:dark}
+*{box-sizing:border-box;min-width:0}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.5 Calibri,GGCal,Carlito,system-ui,sans-serif;overflow-x:clip}
+header{display:flex;align-items:center;gap:18px;flex-wrap:wrap;padding:14px max(5vw,16px);border-bottom:3px solid var(--red)}
+.logo{background:#fff;border-radius:8px;padding:6px 10px;display:flex}.logo img{height:40px;display:block}
+header h1{font-size:clamp(22px,3vw,30px);line-height:1.05;margin:0}header p{margin:2px 0 0;color:var(--mute);font-size:15px}
+.band{padding:clamp(20px,3vw,40px) max(5vw,16px)}
+.wrap{max-width:1240px;margin:0 auto}
+.grid{display:grid;grid-template-columns:minmax(0,5fr) minmax(0,7fr);gap:28px;align-items:start}
+@media(max-width:900px){.grid{grid-template-columns:minmax(0,1fr)}}
+h2{font-size:22px;margin:0 0 12px;color:var(--red)}h3{font-size:17px;margin:18px 0 8px}
+label{display:block;font-weight:700;font-size:15px;margin:14px 0 5px}
+input,select,textarea{width:100%;font:16px Calibri,GGCal,Carlito,sans-serif;color:var(--ink);background:var(--card);border:1px solid var(--line);border-radius:8px;padding:10px 12px;min-height:44px}
+textarea{min-height:72px;resize:vertical}
+input:focus,select:focus,textarea:focus,button:focus-visible{outline:2px solid var(--red);outline-offset:1px}
+select:disabled{opacity:.45}
+.hint{font-size:14px;color:var(--mute);margin:4px 0 0}
+.seg{display:inline-flex;border:1px solid var(--red);border-radius:8px;overflow:hidden;margin:2px 0 4px}.seg button{background:transparent;color:var(--red);border-radius:0;font-size:15px}.seg button.on{background:var(--red);color:#fff}
+.five{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:8px}.five label{font-weight:400;font-size:13px;color:var(--mute);margin:4px 0 4px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.five select{padding:10px 6px;text-align:center}
+.chips{display:flex;flex-wrap:wrap;gap:8px;margin-top:6px}
+.three{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px}.three.two{grid-template-columns:repeat(2,minmax(0,1fr))}
+@media(max-width:600px){.three,.three.two{grid-template-columns:minmax(0,1fr)}}
+.three label{font-weight:400;font-size:14px;color:var(--mute);margin:8px 0 4px}
+button{font:700 16px Calibri,GGCal,Carlito,sans-serif;min-height:44px;padding:10px 18px;border-radius:8px;border:0;background:var(--red);color:#fff;cursor:pointer}
+a.btn{display:inline-flex;align-items:center;font:700 16px Calibri,GGCal,Carlito,sans-serif;min-height:44px;padding:10px 18px;border-radius:8px;background:var(--red);color:#fff;text-decoration:none}
+button.ghost{background:transparent;color:var(--red);border:1px solid var(--red)}button.small{min-height:36px;padding:6px 12px;font-size:14px}
+button:disabled{opacity:.5;cursor:default}
+.panel{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:clamp(16px,2.4vw,26px)}
+.title{font-size:clamp(20px,2.6vw,28px);font-weight:700;line-height:1.1;margin:0 0 4px;text-wrap:balance}
+.sub{color:var(--mute);margin:0 0 10px}
+.fig{position:relative;height:clamp(220px,30vw,300px);background:linear-gradient(var(--grey),var(--card));border-radius:10px;margin:8px 0 6px}
+.fig svg{position:absolute;inset:0;width:100%;height:100%}
+.legend{display:flex;flex-wrap:wrap;gap:6px 16px;font-size:14px;color:var(--mute)}.legend i{display:inline-block;width:14px;height:10px;margin-right:5px;border-radius:2px;vertical-align:baseline}
+.kpis{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:0;background:var(--soft);border-radius:8px;margin:14px 0}
+@media(max-width:420px){.kpis{grid-template-columns:repeat(2,minmax(0,1fr))}}
+.kpis div{padding:8px 10px;border-left:3px solid var(--red)}.kpis small{display:block;font-size:13px;color:var(--mute)}.kpis b{font-size:clamp(20px,2.4vw,26px);color:var(--red);white-space:nowrap}.kpis span{font-size:13px}
+table{width:100%;border-collapse:collapse;font-size:15px}th{background:var(--red);color:#fff;text-align:left;padding:7px 9px;font-weight:700}td{padding:7px 9px;border-bottom:1px solid var(--line);vertical-align:top}tr:nth-child(even) td{background:var(--grey)}
+td.num{text-align:right;white-space:nowrap;font-weight:700}
+.warn{background:light-dark(#fff4e5,#3a2a12);border-left:4px solid #e08a00;padding:10px 12px;border-radius:6px;margin:8px 0;font-size:15px}
+.note{background:var(--soft);border-left:4px solid var(--red);padding:10px 12px;border-radius:6px;margin:8px 0;font-size:15px}
+.ok{background:light-dark(#eaf6ee,#16301f);border-left:4px solid #2e8b57;padding:10px 12px;border-radius:6px;margin:10px 0}
+.plan{margin:6px 0 0;padding-left:20px;font-size:15px}.plan li{margin:3px 0}
+.row{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin-top:12px}
+.chip{display:inline-block;font-size:13px;font-weight:700;padding:2px 9px;border-radius:99px;background:var(--grey);white-space:nowrap}
+.chip.caka{background:light-dark(#fff1d6,#4a3510)}.chip.hotovo{background:light-dark(#dcf1e3,#173a24)}.chip.chyba{background:light-dark(#fbdcdc,#4a1b1b)}
+.cols2{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:22px}@media(max-width:760px){.cols2{grid-template-columns:minmax(0,1fr)}}
+.muted{color:var(--mute)}.rwf{display:flex;align-items:center;gap:6px;margin:0;font-weight:700;font-size:15px;white-space:nowrap}.rwf input{width:90px}#typF{width:auto}.toolbar{display:flex;gap:10px;flex-wrap:wrap;align-items:center;margin-bottom:10px}.toolbar input{max-width:360px}
+.scroll{overflow-x:auto}
+#toast{position:fixed;left:50%;bottom:20px;transform:translateX(-50%);background:var(--ink);color:var(--bg);padding:10px 16px;border-radius:8px;font-size:15px;opacity:0;transition:opacity .2s;pointer-events:none;max-width:90vw}
+#toast.on{opacity:1}
+@media(prefers-reduced-motion:reduce){#toast{transition:none}}
+@media(max-width:600px){table{font-size:13px}.stack thead{display:none}.stack tr{display:grid;padding-block:10px}.stack td{display:flow-root;border:0;padding:3px 0;padding-inline-start:8em;text-align:start}.stack td::before{content:attr(data-l);float:inline-start;width:7.5em;margin-inline-start:-8em;white-space:normal;color:var(--mute)}.stack td:empty{display:none}}
+</style>
+<script>new MutationObserver(()=>{for(const c of document.querySelectorAll('.stack td:not([data-l])')){let i=0,p=c;while(p=p.previousElementSibling)i+=p.colSpan;c.dataset.l=c.closest('table').rows[0].cells[i]?.textContent||''}}).observe(document,{childList:true,subtree:true})</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+</head>
+<body>
+<header>
+  <span class="logo"><img src="img/logo.png" alt="GLASSgallery"></span>
+  <div><h1>Technické listy skla</h1><p>Kód z Logikalu + výmenné tabule → technický list z hodnôt Calumen · <span id="ver"></span></p></div>
+</header>
+
+<section class="band"><div class="wrap grid">
+  <div>
+    <h2>Výber skla</h2>
+    <div class="seg" role="group" aria-label="Spôsob výberu"><button type="button" id="mKod" class="on" aria-pressed="true">Kód z Logikalu</button><button type="button" id="mSkl" aria-pressed="false">Skladba</button></div>
+    <div id="byKod">
+      <label for="kod">Kód skla z Logikalu</label>
+      <input id="kod" list="kody" placeholder="napr. TS12.56" autocomplete="off">
+      <datalist id="kody"></datalist>
+    </div>
+    <div id="bySkl" hidden>
+      <label>Skladba z exteriéru do interiéru (mm)</label>
+      <div class="five">
+        <div><label for="s1">vonk. sklo</label><select id="s1"></select></div>
+        <div><label for="s2">medzera</label><select id="s2"></select></div>
+        <div><label for="s3">stredné sklo</label><select id="s3"></select></div>
+        <div><label for="s4">medzera</label><select id="s4"></select></div>
+        <div><label for="s5">vnút. sklo</label><select id="s5"></select></div>
+      </div>
+      <p class="hint">Pre dvojsklo nastav stredné sklo na „—“.</p>
+      <div id="matches"></div>
+    </div>
+    <p class="hint" id="kodInfo">Začni písať kód alebo skladbu, napr. „TS12“ alebo „8-18-4“.</p>
+    <label>Výmenné tabule</label>
+    <div class="three" id="exWrap">
+      <div><label for="ex_ext">vonkajšia</label><select id="ex_ext"></select></div>
+      <div><label for="ex_stred">stredná</label><select id="ex_stred"></select></div>
+      <div><label for="ex_int">vnútorná</label><select id="ex_int"></select></div>
+    </div>
+    <p class="hint">Ponúkajú sa len tabule s rovnakou hrúbkou (VSG 33.x = 6 mm, 44.x = 8 mm, 55.x = 10 mm) a vhodné pre danú pozíciu: na pokovenú pozíciu len sklá s LowE, ornamentné sklá v trojskle len do stredu a v dvojskle len von, protislnečné sklá vždy von (v dvojskle je potom vnútri float bez LowE).</p>
+    <div id="calumenPlan"></div>
+  </div>
+  <div class="panel" id="result" aria-live="polite">
+    <p class="muted">Vyber kód skla – tu sa zobrazí rez skladbou a stav technického listu.</p>
+  </div>
+</div></section>
+
+<section class="band" style="background:var(--grey)"><div class="wrap cols2">
+  <div>
+    <h2>Archív technických listov</h2>
+    <div class="toolbar"><input id="q" placeholder="Hľadať v archíve (kód, sklo…)" aria-label="Hľadať v archíve"><label class="rwf" for="rw">Rw od<input id="rw" type="number" inputmode="numeric" min="20" max="60" placeholder="dB"></label><select id="typF" aria-label="Typ skla"><option value="">všetky</option><option value="trojsklo">trojsklá</option><option value="dvojsklo">dvojsklá</option></select><span class="muted" id="archCount"></span></div><p class="hint" id="rwHint" hidden></p>
+    <div id="archive" class="muted">Načítavam archív…</div>
+  </div>
+  <div>
+    <h2>Chýba technický list?</h2>
+    <p>Vyber sklo hore a klikni na <b>Vyžiadať e-mailom</b> – otvorí sa e-mail s presným zadaním pre Jozefa Slivu. Hotový list sa objaví v archíve pri ďalšej aktualizácii.</p>
+    <p class="hint">Ak sa e-mail neotvorí, pošli zadanie na <b>sliva@glassgallery.sk</b>.</p>
+    <div id="reqs" hidden></div>
+  </div>
+</div></section>
+<div id="toast" role="status"></div>
+
+<script>
+{
+const $=s=>document.querySelector(s);
+const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const nf=(v,d)=>{if(v===''||v==null)return '';const n=Number(v);if(isNaN(n))return String(v);return (d==null?String(n):n.toFixed(d)).replace('.',',')};
+const toast=t=>{const e=$('#toast');e.textContent=t;e.classList.add('on');clearTimeout(toast.t);toast.t=setTimeout(()=>e.classList.remove('on'),3500)};
+let SKLA=[],FUNK=[],db=null,user=null,downloads=null,owner=false,myId=null;
+const sheets=new Map(),requests=new Map();let cur=null;
+const POS={ext:'Vonkajšia',stred:'Stredná',int:'Vnútorná'};
+
+function parsePane(t){let m;
+  if(m=t.match(/^(\d+)(ESG)?$/i))return{plies:[+m[1]],foils:0,foil:'',esg:!!m[2],product:'PLANICLEAR'};
+  if(m=t.match(/^(?:VSG)?(\d)(\d)(\d)(si|s)?$/i))return{plies:[+m[1],+m[2]],foils:+m[3],foil:m[4]?'PVB SILENCE':'PVB STANDARD',esg:false,product:'PLANICLEAR'};
+  return null}
+const short=p=>p.plies.length>1?`${p.plies.join('')}.${p.foils}`:String(p.plies[0]);
+const code=p=>p.plies.length>1?`VSG${p.plies.join('')}${p.foils}${p.foil==='PVB SILENCE'?'SI':''}`:`${p.plies[0]}${p.esg?'ESG':''}`;
+const coatShort=c=>!c?'':/PLANITHERM/.test(c)?'LowE':c==='ECLAZ'?'ECLAZ':c.replace(/ II$/,'').replace('COOL-LITE ','');
+const keyOf=(k,e)=>[k,e.ext||'-',e.stred||'-',e.int||'-'].join('|');
+const idOf=key=>key.normalize('NFD').replace(/[̀-ͯ]/g,'').replace(/[^A-Za-z0-9_\-.~:@+]/g,'_').slice(0,190);
+
+function compute(g,ex){
+  if(!g)return null;const kod=g.kod;
+  const parts=g.skladba.split('-');const panes=parts.filter((_,i)=>i%2==0).map(parsePane);const gaps=parts.filter((_,i)=>i%2==1).map(x=>parseInt(x));
+  if(panes.some(p=>!p))return null;
+  const tri=panes.length===3,pos=tri?['ext','stred','int']:['ext','int'],extSolar=!!FUNK.find(f=>f.nazov===ex.ext)?.solar,coated=tri?[0,2]:extSolar?[]:[1],warn=[],notes=[];
+  if(!tri&&extSolar)notes.push('Dvojsklo s protislnečným sklom: povlak je na vonkajšej tabuli (poz. #2), vnútorná tabuľa je float bez LowE.');
+  const te=kod.startsWith('TE');const base=esg=>te?'ECLAZ':esg?'PLANITHERM XN II':'PLANITHERM XN';
+  panes.forEach((p,i)=>{const want=coated.includes(i),fn=ex[pos[i]];
+    if(fn){const F=FUNK.find(f=>f.nazov===fn);if(!F)return;
+      Object.assign(p,{plies:F.plies,foils:F.foils,foil:F.foil,esg:F.esg,product:F.product,exch:F.nazov});
+      p.coat=F.coat==='LOWE'?base(F.esg):F.coat||null;if(F.note)notes.push(F.note);
+      if(want&&!p.coat)warn.push(`${POS[pos[i]]} tabuľa (${F.nazov}) nemá pokovenie LowE – sklo príde o povlak na tejto pozícii a zhorší sa Ug. Ak má byť pokovená, vyber variant „LowE“.`);
+      if(F.solar&&i!==0)warn.push('Protislnečné sklo patrí na vonkajšiu tabuľu.');
+      if(F.solar&&i===0&&tri)notes.push('Protislnečný povlak nahrádza PLANITHERM XN na vonkajšej tabuli.');
+      if(!want&&p.coat&&!F.solar){if(tri&&i===1&&!p.esg)warn.push('Povlak v strednej tabuli – podľa Glasora musí byť stredné sklo tvrdené (ESG).');else if(!tri)notes.push('Dvojsklo má pokovenie na poz. 3; LowE na vonkajšej tabuli je navyše.')}
+    }else p.coat=want?base(p.esg):null});
+  let cum=0;panes.forEach((p,i)=>{const first=2*cum+1;cum+=p.plies.length;p.face=p.coat?(i===0?2*cum:first):null;p.side=i===0?'right':'left'});
+  const real=panes.reduce((a,p)=>a+p.plies.reduce((x,y)=>x+y,0)+0.38*p.foils,0)+gaps.reduce((a,b)=>a+b,0);
+  const theo=g.custom?String(Math.round(real)):kod.split('.')[1];const pref=g.custom?(tri?'TS':'DS'):kod.match(/^[A-Z]+/)[0];
+  const items=[];panes.forEach((p,i)=>{items.push(p);if(i<gaps.length)items.push({gap:gaps[i]})});
+  const skl=items.map(x=>x.gap?x.gap:code(x)).join('-');
+  const nazov=(g.custom?'':`${kod} – `)+items.map(x=>x.gap?`${x.gap} Ar`:(x.plies.length>1?`VSG ${short(x)}${x.foil==='PVB SILENCE'?' SI':''}`:`${short(x)}${x.esg?' ESG':''}`)+(x.coat?' '+coatShort(x.coat):'')).join(' / ');
+  const typ={DS:'Izolačné dvojsklo',DB:'Izolačné dvojsklo so zvýšenou nepriezvučnosťou',DT:'Izolačné dvojsklo pre sklenený spoj',TS:'Izolačné trojsklo',TB:'Izolačné trojsklo so zvýšenou nepriezvučnosťou',TT:'Izolačné trojsklo pre sklenený spoj',TTB:'Izolačné trojsklo pre sklenený spoj so zvýšenou nepriezvučnosťou',TX:'Izolačné trojsklo pre štrukturálne zasklenie',TE:'Izolačné trojsklo s povlakom ECLAZ'}[pref]||(tri?'Izolačné trojsklo':'Izolačné dvojsklo');
+  const vyh={TT:'Sklenený spoj (TT): tmelenie UV odolným silikónom, presah izolačného skla s čiernením presahu UV silikónom, brúsená U hrana matná.',TTB:'Sklenený spoj (TTB): tmelenie UV odolným silikónom, presah izolačného skla s čiernením presahu UV silikónom, brúsená U hrana matná.',DT:'Sklenený spoj (DT): tmelenie UV odolným silikónom, presah izolačného skla s čiernením presahu UV silikónom, brúsená U hrana matná.',TX:'Štrukturálne zasklenie (TX): tmelenie UV odolným silikónom, čiernené hrany; podľa projektu lišta v tmelení na mechanické zaistenie.'}[pref]||'';
+  const desc=p=>{const pr=p.product;let s=p.plies.length>1?`VSG ${short(p)} – ${pr} ${p.plies[0]} mm + ${p.foil} ${p.foils} × 0,38 mm + ${pr} ${p.plies[1]} mm`:`${pr} ${p.plies[0]} mm, ${p.esg?'tvrdené (ESG)':'float'}`;
+    if(p.plies.length>1&&p.esg)s+=', tvrdené';if(p.coat)s+=`; pokovenie ${p.coat} na poz. #${p.face} (do medzery)`;return s};
+  const tab=[];items.forEach(x=>{if(x.gap)tab.push([`Medzera ${tab.filter(r=>r[0].startsWith('Medzera')).length+1}`,'Argon 90 %, rámik Swisspacer Advance',`${x.gap} mm`]);else{const i=panes.indexOf(x);tab.push([`${POS[pos[i]]} tabuľa`,desc(x),`${nf(x.plies.reduce((a,b)=>a+b,0)+0.38*x.foils,2).replace(/,?0+$/,'')} mm`])}});
+  tab.push(['Spolu',`Teoretická hrúbka ${theo} mm${g.custom?'':` (${kod})`}, skutočná hrúbka${panes.some(p=>p.foils)?' so fóliami':''}`,`${nf(Math.round(real*10)/10)} mm`]);
+  const vrstvy=items.map(x=>x.gap?{type:'gap',width:x.gap,gas_short:'Ar 90 %'}:{type:'pane',plies:x.plies,foils:x.foils,short:short(x),coating_side:x.coat?[x.side]:[],coating_pos:x.coat?'#'+x.face:''});
+  const plan=items.map(x=>{if(x.gap)return `Medzera ${x.gap} mm – Argon 90 %, rámik Swisspacer Advance`;const i=panes.indexOf(x);
+    return `${POS[pos[i]]}: ${x.product} ${x.plies.join(' + ')} mm, ${x.esg?'tvrdené':'Float'}`+(x.plies.length>1?`, vrstvené – ${x.foil}, fólie ${x.foils} - ${(x.foils*0.38).toFixed(2)}`:'')+(x.coat?`, povlak ${x.coat} na #${x.face}`:'')});
+  return{kod,ex,g,tri,panes,gaps,items,real,theo,skl,nazov,podnazov:`${typ} · rámik Swisspacer Advance · Argon 90 %`,vyh,warn,notes,tab,vrstvy,plan,key:keyOf(kod,ex),calumenName:g.custom?`${skl} SwA`:`${kod} ${skl} SwA`}}
+
+function svgRez(vrstvy){
+  const W=1000,H=300,m=120,top=40,bot=230;let total=0;
+  vrstvy.forEach(L=>total+=L.type==='gap'?L.width:L.plies.reduce((a,b)=>a+b,0)+0.38*(L.foils||0));
+  const sc=(W-2*m)/total;let x=m,o='';
+  for(const L of vrstvy){
+    if(L.type==='gap'){const w=L.width*sc;o+=`<rect x="${x}" y="${top}" width="${w}" height="${bot-top}" fill="var(--card)"/><rect x="${x+1}" y="${top}" width="${w-2}" height="26" rx="3" fill="#9AA0A6"/><rect x="${x+1}" y="${bot-26}" width="${w-2}" height="26" rx="3" fill="#9AA0A6"/><text x="${x+w/2}" y="${(top+bot)/2+6}" text-anchor="middle" font-size="20" fill="var(--mute)">Ar 90 %</text><text x="${x+w/2}" y="${bot+38}" text-anchor="middle" font-size="24" font-weight="700" fill="var(--ink)">${esc(L.width)}</text>`;x+=w}
+    else{const x1=x,pl=[];L.plies.forEach((p,i)=>{const w=p*sc;o+=`<rect x="${x}" y="${top-10}" width="${w}" height="${bot-top+20}" fill="#CFE3EC" stroke="#7FA6B8" stroke-width="2"/><rect x="${x+2}" y="${top-6}" width="${Math.max(w*.18,2)}" height="${bot-top+12}" fill="#fff" opacity=".55"/>`;pl.push([x,x+w]);x+=w;
+        if(i<L.plies.length-1&&L.foils){const f=Math.max(.38*L.foils*sc,5);o+=`<rect x="${x}" y="${top-10}" width="${f}" height="${bot-top+20}" fill="#CE7067"/>`;x+=f}});
+      o+=`<text x="${(x1+x)/2}" y="${bot+38}" text-anchor="middle" font-size="24" font-weight="700" fill="var(--ink)">${esc(L.short)}</text>`;
+      (L.coating_side||[]).forEach(sd=>{const cx=sd==='right'?pl[pl.length-1][1]:pl[0][0];o+=`<rect x="${cx-3.5}" y="${top-10}" width="7" height="${bot-top+20}" fill="#C41230"/><text x="${cx}" y="${top-18}" text-anchor="middle" font-size="20" font-weight="700" fill="var(--red)">${esc(L.coating_pos)}</text>`})}}
+  return `<svg viewBox="0 0 ${W} ${H}" preserveAspectRatio="xMidYMid meet" role="img" aria-label="Rez skladbou skla"><text x="${m-16}" y="${(top+bot)/2+7}" text-anchor="end" font-size="20" font-weight="700" fill="var(--mute)">EXTERIÉR</text><text x="${W-m+16}" y="${(top+bot)/2+7}" font-size="20" font-weight="700" fill="var(--mute)">INTERIÉR</text>${o}</svg>`}
+const legend=`<div class="legend"><span><i style="background:#CFE3EC;border:1px solid #7FA6B8"></i>sklo</span><span><i style="background:#CE7067"></i>PVB fólia</span><span><i style="background:#C41230"></i>pokovenie</span><span><i style="background:#9AA0A6"></i>rámik Swisspacer Advance</span></div>`;
+
+function kpiHtml(S){const k=S.kpi||{};const c=[['Ug',nf(k.Ug,1),'W/(m²·K)'],['Priepustnosť TL',k.TL,'%'],['Solárny faktor g',nf(k.g,2),''],['Nepriezvučnosť Rw',String(k.Rw||'').split(' ')[0],(String(k.Rw||'').split(' ').slice(1).join(' ')+' dB').trim()],['Hrúbka',nf(k.hrubka,1),'mm'],['Hmotnosť',k.hmotnost,'kg/m²']];
+  return `<div class="kpis">${c.map(([l,v,u])=>`<div><small>${esc(l)}</small><b>${esc(v)}</b> <span>${esc(u)}</span></div>`).join('')}</div>`}
+function kvHtml(t,rows){return `<h3>${esc(t)}</h3><table><tbody>${(rows||[]).map(r=>`<tr><td>${esc(r[0])}</td><td class="num">${esc(r[1])}</td></tr>`).join('')}</tbody></table>`}
+function sheetDetail(S){const v=S.hodnoty||{};
+  return kpiHtml(S)+(S.vyhotovenie?`<div class="note"><b>Vyhotovenie:</b> ${esc(S.vyhotovenie)}</div>`:'')+`<div class="cols2"><div>${kvHtml('Svetelné vlastnosti',v.svetelne)}${kvHtml('Akustika',v.akustika)}</div><div>${kvHtml('Energetické vlastnosti',v.energeticke)}${kvHtml('Bezpečnosť a rozmery',v.bezpecnost)}</div></div>`}
+
+function renderResult(){
+  const R=$('#result');if(!cur){R.innerHTML='<p class="muted">Vyber kód skla – tu sa zobrazí rez skladbou a stav technického listu.</p>';$('#calumenPlan').innerHTML='';return}
+  const S=sheets.get(idOf(cur.key)),Q=requests.get(idOf(cur.key));
+  let st;
+  if(S)st=`<div class="ok"><b>Technický list je v archíve</b> · ${esc(S.datum||'')}</div>${sheetDetail(S)}<div class="row"><button data-pdf="${esc(idOf(cur.key))}">Stiahnuť PDF</button></div>`;
+  else if(Q&&Q.status!=='hotovo')st=`<div class="note"><b>Požiadavka ${Q.status==='chyba'?'má problém':'čaká na spracovanie'}</b> · zadaná ${esc(fmtDate(Q.createdAt))}${Q.odpoved?`<br>${esc(Q.odpoved)}`:''}</div><p class="hint">List pripraví Claude v Calumene; po dokončení sa objaví v archíve.</p>`;
+  else st=`<p><b>Tento technický list ešte nie je v archíve.</b></p><label for="vyh">Vyhotovenie / poznámka (nepovinné)</label><textarea id="vyh" placeholder="napr. presah vonkajšej tabule 20 mm">${esc(cur.vyh)}</textarea><div class="row"><a class="btn" id="mailBtn" href="#">Vyžiadať e-mailom</a><span class="hint">sliva@glassgallery.sk</span></div>`;
+  R.innerHTML=`<p class="title">${esc(cur.nazov)}</p><p class="sub">${esc(cur.podnazov)} · skutočná hrúbka ${esc(nf(Math.round(cur.real*10)/10))} mm</p><div class="fig">${svgRez(cur.vrstvy)}</div>${legend}${cur.warn.map(w=>`<div class="warn">${esc(w)}</div>`).join('')}${cur.notes.map(w=>`<div class="note">${esc(w)}</div>`).join('')}<h3>Stav technického listu</h3>${st}`;
+  $('#calumenPlan').innerHTML=`<details style="margin-top:16px"><summary style="cursor:pointer;font-weight:700;min-height:44px;display:flex;align-items:center">Zadanie v Calumene</summary><ol class="plan">${cur.plan.map(l=>`<li>${esc(l)}</li>`).join('')}</ol><p class="hint">Názov konfigurácie: <b>${esc(cur.calumenName)}</b></p></details>`}
+
+const fmtDate=s=>{try{return new Date(s).toLocaleDateString('sk-SK')}catch(e){return ''}};
+const catF=f=>f.solar?'solar':/SATINOVO|Vison|RAL|Parsol|Mirastar/i.test(f.nazov)?'orn':f.coat==='LOWE'?'lowe':'plain';
+const CATN={lowe:'s pokovením LowE',plain:'bez povlaku',orn:'ornamentné / špeciálne',solar:'protislnečné'};
+function allowed(p,tri,extSolar){if(tri)return p==='ext'?['lowe','solar']:p==='stred'?['plain','orn']:['lowe'];return p==='ext'?['plain','orn','solar']:extSolar?['plain']:['lowe']}
+const refT=p=>p.plies.length>1?({3:6,4:8,5:10,6:12}[p.plies[0]]||p.plies[0]*2):p.plies[0];
+function fillEx(p,t,cats){const el=$('#ex_'+p),v=el.value;const L=t==null?[]:FUNK.filter(f=>refT(f)===t&&cats.includes(catF(f)));const gr=[...new Set(L.map(f=>f.group))];
+  const key=t+'|'+cats.join()+'|'+L.length;if(el.dataset.k===key)return;el.dataset.k=key;
+  el.innerHTML=`<option value="">— bez zmeny —</option>`+(t==null?'':L.length?gr.map(x=>`<optgroup label="${esc(x)}">${L.filter(f=>f.group===x).map(f=>`<option>${esc(f.nazov)}</option>`).join('')}</optgroup>`).join(''):`<option value="" disabled>pre túto pozíciu a ${esc(t??'')} mm nie sú výmenné tabule</option>`);
+  el.value=L.some(f=>f.nazov===v)?v:'';el.title=t==null?'':`Výmenné tabule pre ${t} mm`;const lb=document.querySelector(`label[for=ex_${p}]`);if(lb)lb.textContent={ext:'vonkajšia',stred:'stredná',int:'vnútorná'}[p]+(t==null?'':` (${t} mm)`)}
+let mode='kod',pick=null;const SEL=['#s1','#s2','#s3','#s4','#s5'];
+function setMode(m){mode=m;$('#mKod').classList.toggle('on',m==='kod');$('#mSkl').classList.toggle('on',m==='skl');$('#mKod').setAttribute('aria-pressed',m==='kod');$('#mSkl').setAttribute('aria-pressed',m==='skl');$('#byKod').hidden=m!=='kod';$('#bySkl').hidden=m!=='skl';try{localStorage.setItem('gg_tl_mode',m)}catch(e){}update()}
+function setSkl(skl){const p=String(skl).split('-');const v=p.length===5?p:[p[0],p[1],'','',p[2]];SEL.forEach((s,i)=>{$(s).value=v[i]??''});syncSkl()}
+function syncSkl(){const dbl=$('#s3').value==='';$('#s4').disabled=dbl;if(dbl)$('#s4').value='';else if(!$('#s4').value)$('#s4').value=$('#s2').value}
+function update(){
+  let g=null;const info=$('#kodInfo');
+  if(mode==='kod'){const kod=$('#kod').value.trim().split(/\s/)[0].toUpperCase();g=SKLA.find(s=>s.kod===kod)||null;$('#matches').innerHTML=''}
+  else{const v=SEL.map(s=>$(s).value);const tri=v[2]!=='';const skl=(tri?v:[v[0],v[1],v[4]]).join('-');
+    const ms=SKLA.filter(s=>s.skladba===skl);if(!ms.some(m=>m.kod===pick))pick=(ms.find(m=>/^(TS|DS)/.test(m.kod))||ms[0])?.kod||null;
+    g=pick?ms.find(m=>m.kod===pick):{kod:skl,skladba:skl,typ:tri?'trojsklo':'dvojsklo',kat:'',Ug:'',Rw:'',custom:true};
+    $('#matches').innerHTML=ms.length?`<p class="hint">V Logikale ${ms.length>1?'zodpovedajú kódy':'zodpovedá kód'}:</p><div class="chips">${ms.map(m=>`<button type="button" class="small${m.kod===pick?'':' ghost'}" data-pick="${esc(m.kod)}">${esc(m.kod)} · ${esc(m.kat)}</button>`).join('')}</div>`:`<div class="note">Skladba <b>${esc(skl)}</b> nie je v Logikale. Technický list sa dá vyžiadať aj tak – označený bude touto skladbou.</div>`}
+  info.textContent=!g?(mode==='kod'?'Začni písať kód alebo skladbu, napr. „TS12“ alebo „8-18-4“.':''):g.custom?`Vlastná skladba ${g.skladba} · ${g.typ} · bez kódu z Logikalu`:`${g.kod}: ${g.skladba} · ${g.typ} · Logikal: Ug ${g.Ug}${g.Rw?' · Rw '+g.Rw+' dB':''}`;
+  const tri=g?g.typ==='trojsklo':true;
+  const bp=g?g.skladba.split('-').filter((_,i)=>i%2==0).map(parsePane):[];const pp=tri?['ext','stred','int']:['ext','int'];
+  const extSolar=!!FUNK.find(f=>f.nazov===$('#ex_ext').value)?.solar;
+  ['ext','stred','int'].forEach(p=>{const i=pp.indexOf(p);fillEx(p,i<0||!bp[i]?null:refT(bp[i]),allowed(p,tri,p==='int'&&extSolar))});
+  $('#ex_stred').disabled=!tri;if(!tri)$('#ex_stred').value='';
+  cur=g?compute(g,{ext:$('#ex_ext').value,stred:tri?$('#ex_stred').value:'',int:$('#ex_int').value}):null;renderResult()}
+
+const POZN='Hodnoty boli vypočítané v programe Calumen (Saint-Gobain Glass) podľa EN 410:2011, EN 673:2011, EN 12758 a CIE 015:2018 pre kolmý dopad (uhol 0°). Ide o informatívne hodnoty pre dané zloženie; skutočné hodnoty sa môžu líšiť v závislosti od výroby a rozmerov tabule. Pri bezpečnostných triedach EN 12600 / EN 356 sú uvedené hodnoty pre jednotlivé tabule od exteriéru.';
+function expand(S){if(!S||S.hodnoty||!S.v)return S;const v=S.v;
+  const g=SKLA.find(x=>x.kod===S.kod)||(S.skladba?{kod:S.kod,skladba:S.skladba,typ:S.skladba.split('-').length===5?'trojsklo':'dvojsklo',custom:true}:null);
+  const c=g&&compute(g,{ext:S.ext||'',stred:S.stred||'',int:S.int||''});if(!c)return S;
+  const d=x=>String(x??'').replace('.',','),pc=x=>x===''||x==null?'–':(isNaN(+x)?String(x):d(x)+' %'),rw=String(v.Rw||'').replace(/-/g,'−');
+  return{...S,oznacenie:c.kod,nazov:c.nazov,podnazov:c.podnazov,vrstvy:c.vrstvy,skladba_tabulka:c.tab,skladba:c.skl,vyhotovenie:S.vyhotovenie??c.vyh,
+    kpi:{Ug:+v.Ug,TL:+v.TL,g:+v.g,Rw:rw,hrubka:+v.hrubka,hmotnost:+v.hm},
+    hodnoty:{svetelne:[['Svetelná priepustnosť TL',pc(v.TL)],['Odrazivosť svetla vonkajšia RLe',pc(v.RLe)],['Odrazivosť svetla vnútorná RLi',pc(v.RLi)],['Index podania farieb Ra – prestup',d(v.RaT)],['Index podania farieb Ra – odraz',d(v.RaR)]],
+      akustika:[['Vážená nepriezvučnosť Rw (C; Ctr)',rw?rw+' dB':'–'],['Ra',v.Ra?v.Ra+' dB':'–'],['Ra,tr',v.Ratr?v.Ratr+' dB':'–'],['STC (ASTM E413) / OITC (ASTM E1332)',`${+v.STC?v.STC:'–'} / ${+v.OITC?v.OITC:'–'}`]],
+      energeticke:[['Priepustnosť slnečnej energie TE',pc(v.TE)],['Priepustnosť UV žiarenia',pc(v.UV==='—'?'':v.UV)],['Odrazivosť energie vonkajšia / vnútorná',`${pc(v.Ree)} / ${pc(v.Rei)}`],['Absorpcia A1 / A2 / A3',[v.AE1,v.AE2,v.AE3].filter(x=>x!==''&&x!=null).map(pc).join(' / ')],['Solárny faktor g',d(v.g)],['Koeficient tienenia SC',d(v.SC)],['Súčiniteľ prechodu tepla Ug (EN 673)',d(v.Ug)+' W/(m²·K)']],
+      bezpecnost:[['Odolnosť proti nárazu (EN 12600)',String(v.EN12600||'–').replace(/\//g,' / ')],['Odolnosť proti vlámaniu (EN 356)',String(v.EN356||'–').replace(/\//g,' / ')],['Nominálna hrúbka',d(v.hrubka)+' mm'],['Plošná hmotnosť',(v.hm||'–')+' kg/m²']]},
+    poznamka:POZN+(/Simul/i.test(v.aku||'')?' Akustické hodnoty sú simulované.':''),datum:S.datum,vypracoval:S.vypracoval||'Jozef Sliva, sliva@glassgallery.sk'}}
+const rwOf=x=>{const n=parseInt(String(x?.kpi?.Rw??''));return isNaN(n)?null:n};
+const typOf=x=>(x.vrstvy||[]).filter(v=>v.type==='pane').length===3?'trojsklo':'dvojsklo';
+function renderArchive(){
+  const q=$('#q').value.trim().toLowerCase(),rw=parseInt($('#rw').value),tf=$('#typF').value;
+  let list=[...sheets.entries()].map(([id,s])=>({id,...s})).filter(s=>(!q||(`${s.nazov} ${s.kod} ${s.skladba||''}`).toLowerCase().includes(q))&&(!tf||typOf(s)===tf));
+  if(!isNaN(rw)){list=list.filter(s=>rwOf(s)!=null&&rwOf(s)>=rw).sort((a,b)=>rwOf(a)-rwOf(b)||(+a.kpi?.Ug||9)-(+b.kpi?.Ug||9)||String(a.nazov).localeCompare(String(b.nazov)))}
+  else list.sort((a,b)=>String(a.kod).localeCompare(String(b.kod))||String(a.nazov).localeCompare(String(b.nazov)));
+  $('#rwHint').hidden=isNaN(rw);$('#rwHint').textContent=isNaN(rw)?'':`Sklá s Rw ≥ ${rw} dB, zoradené od najnižšieho Rw (najbližšie k požiadavke). Ak niečo chýba, skús variant s VSG Silence a vyžiadaj ho.`;
+  $('#archCount').textContent=`${list.length} z ${sheets.size}`;
+  $('#archive').innerHTML=list.length?`<table class="stack"><thead><tr><th>Sklo</th><th>Rw (C;Ctr)</th><th>Ug</th><th></th></tr></thead><tbody>${list.map(s=>`<tr><td><b>${esc(s.nazov)}</b></td><td style="white-space:nowrap">${esc(String(s.kpi?.Rw||'–'))}${s.kpi?.Rw?' dB':''}</td><td style="white-space:nowrap">${esc(nf(s.kpi?.Ug,1))}</td><td style="white-space:nowrap"><button class="small" data-pdf="${esc(s.id)}">PDF</button> <button class="small ghost" data-open="${esc(s.id)}">Otvoriť</button></td></tr>`).join('')}</tbody></table>`:`<p class="muted">${sheets.size?'Nič nevyhovuje zadaniu.':'Archív je zatiaľ prázdny.'}</p>`}
+async function renderReqs(){
+  const list=[...requests.entries()].map(([id,r])=>({id,...r})).sort((a,b)=>String(b.createdAt||'').localeCompare(String(a.createdAt||'')));
+  let names={};if(user?.profiles){try{names=await user.profiles([...new Set(list.map(r=>r.requestedBy).filter(Boolean))])}catch(e){}}
+  const st={caka:'čaká',hotovo:'hotovo',chyba:'problém'};
+  $('#reqs').innerHTML=list.length?`<table class="stack"><thead><tr><th>Sklo</th><th>Kto</th><th>Stav</th><th></th></tr></thead><tbody>${list.map(r=>`<tr><td><b>${esc(r.nazov)}</b>${r.odpoved?`<br><span class="muted">${esc(r.odpoved)}</span>`:''}</td><td>${esc(names[r.requestedBy]?.name||'kolega')}<br><span class="muted">${esc(fmtDate(r.createdAt))}</span></td><td><span class="chip ${esc(r.status)}">${esc(st[r.status]||r.status)}</span></td><td>${owner?`<button class="small ghost" data-del="${esc(r.id)}">Zmazať</button>`:''}</td></tr>`).join('')}</tbody></table>`:'<p class="muted">Žiadne požiadavky.</p>'}
+
+async function makeRequest(){
+  if(!cur||!db)return;const b=$('#reqBtn');b.disabled=true;
+  const body={key:cur.key,kod:cur.kod,ext:cur.ex.ext||'',stred:cur.ex.stred||'',int:cur.ex.int||'',nazov:cur.nazov,skladba:cur.skl,calumenName:cur.calumenName,plan:cur.plan,warnings:cur.warn,notes:cur.notes,
+    vyhotovenie:($('#vyh')?.value||'').trim(),draft:{oznacenie:cur.kod,nazov:cur.nazov,podnazov:cur.podnazov,vrstvy:cur.vrstvy,skladba_tabulka:cur.tab,hrubka:Math.round(cur.real*10)/10},
+    requestedBy:myId||'',createdAt:new Date().toISOString(),status:'caka'};
+  try{await db.collection('requests').doc(idOf(cur.key)).set(body);toast('Požiadavka odoslaná – list sa objaví v archíve po spracovaní.')}
+  catch(e){b.disabled=false;toast(e?.code==='invalid_argument'?'Nemáš oprávnenie zadávať požiadavky – požiadaj Jozefa o prístup „Contributor“.':'Požiadavku sa nepodarilo uložiť, skús znova.')}}
+
+/* ---------- PDF ---------- */
+let ASSETS=null;
+const b64=buf=>{let s='',u=new Uint8Array(buf);for(let i=0;i<u.length;i+=32768)s+=String.fromCharCode.apply(null,u.subarray(i,i+32768));return btoa(s)};
+async function assets(){if(ASSETS)return ASSETS;const [r,b,l]=await Promise.all(['fonts/Carlito-Regular.ttf','fonts/Carlito-Bold.ttf','img/logo.png'].map(u=>fetch(u).then(x=>x.arrayBuffer())));ASSETS=[b64(r),b64(b),'data:image/png;base64,'+b64(l)];return ASSETS}
+async function makePDF(S){
+  const {jsPDF}=window.jspdf;const d=new jsPDF({unit:'mm',format:'a4',compress:true});const [reg,bold,logo]=await assets();
+  d.addFileToVFS('GG-R.ttf',reg);d.addFont('GG-R.ttf','Calibri','normal');d.addFileToVFS('GG-B.ttf',bold);d.addFont('GG-B.ttf','Calibri','bold');
+  const L=18,R=192,CW=174,RED='#C41230',CORAL='#CE7067',PINK='#DF9E9E',DARK='#20201F',LP='#F9ECEC',LG='#F2F2F2',GR='#555555';
+  const cl=s=>String(s??'').replace(/−/g,'-');
+  const T=(s,x,y,o={})=>{d.setFont('Calibri',o.b?'bold':'normal');d.setFontSize(o.s||9);d.setTextColor(o.c||DARK);d.text(cl(s),x,y,o.a?{align:o.a}:undefined)};
+  const W=(s,sz,b)=>{d.setFont('Calibri',b?'bold':'normal');d.setFontSize(sz);return d.getTextWidth(cl(s))};
+  const split=(s,w,sz,b)=>{d.setFont('Calibri',b?'bold':'normal');d.setFontSize(sz);return d.splitTextToSize(cl(s),w)};
+  const page=()=>{d.addImage(logo,'PNG',L,11,34,34*105/237);T('TECHNICKÝ LIST IZOLAČNÉHO SKLA',R,17,{b:1,s:13,c:RED,a:'right'});T(`Označenie: ${S.oznacenie}   |   Dátum: ${S.datum}`,R,22.5,{s:9,a:'right'});
+    d.setDrawColor(RED);d.setLineWidth(.42);d.line(L,29,R,29);d.setDrawColor(PINK);d.setLineWidth(.2);d.line(L,282,R,282);
+    T('GLASSgallery, s.r.o.  |  Rumanová 408, 951 37 Rumanová  |  www.glassgallery.sk',L,286.5,{s:7.8});T(`Vypracoval: ${S.vypracoval||''}`,R,286.5,{s:7.8,a:'right'})};
+  page();let y=33;const need=h=>{if(y+h>279){d.addPage();page();y=35}};
+  split(S.nazov,CW,17,1).forEach(l=>{y+=6.3;T(l,L,y,{b:1,s:17})});
+  split(S.podnazov,CW,10.5).forEach(l=>{y+=4.8;T(l,L,y,{s:10.5})});y+=4;
+  const k=S.kpi||{},rw=String(k.Rw||'').split(' ');
+  const kp=[['Ug (EN 673)',nf(k.Ug,1),'W/(m²·K)'],['Priepustnosť TL',String(k.TL??''),'%'],['Solárny faktor g',nf(k.g,2),''],['Nepriezvučnosť Rw',rw[0],(rw.slice(1).join(' ')+' dB').trim()],['Hrúbka',nf(k.hrubka,1),'mm'],['Hmotnosť',String(k.hmotnost??''),'kg/m²']];
+  d.setFillColor(LP);d.rect(L,y,CW,15,'F');kp.forEach(([l,v,u],i)=>{const x=L+i*CW/6;d.setFillColor(RED);d.rect(x,y,.7,15,'F');T(l,x+2.6,y+4.6,{s:7.5,c:GR});T(v,x+2.6,y+11.6,{b:1,s:15,c:RED});T(u,x+2.6+W(v,15,1)+1,y+11.6,{s:8})});y+=15;
+  const h2=(t,n)=>{need(14);y+=6.6;T(t,L2,y,{b:1,s:11.5,c:RED});if(n)T(n,L2+W(t,11.5,1)+2,y,{s:8,c:GR});y+=2.5};let L2=L;
+  h2('Skladba (z exteriéru do interiéru)');need(42);rez(d,L,y,CW,42,S.vrstvy||[],T,W,{RED,CORAL,DARK});y+=42;
+  table([34,CW-58,24],['Prvok','Popis','Hrúbka'],S.skladba_tabulka||[],[1,0,1],[0,0,1]);
+  if(S.vyhotovenie){h2('Vyhotovenie');const ls=split(S.vyhotovenie,CW-8,9);const h=ls.length*3.9+4;need(h);d.setFillColor(LP);d.rect(L,y,CW,h,'F');d.setFillColor(RED);d.rect(L,y,.7,h,'F');ls.forEach((l,i)=>T(l,L+4,y+5+i*3.9,{s:9}));y+=h}
+  function table(ws,hd,rows,bo,al,x0=L){const tw=ws.reduce((a,b)=>a+b,0);
+    if(hd){need(7);d.setFillColor(RED);d.rect(x0,y,tw,6.2,'F');let x=x0;hd.forEach((h,i)=>{T(h,al[i]?x+ws[i]-2:x+2,y+4.3,{b:1,s:9,c:'#FFFFFF',a:al[i]?'right':undefined});x+=ws[i]});y+=6.2}
+    rows.forEach((r,ri)=>{const ls=r.map((c,i)=>split(c,ws[i]-4,9,bo[i]));const h=Math.max(...ls.map(l=>l.length))*3.9+2.6;need(h);
+      if(ri%2==1){d.setFillColor(LG);d.rect(x0,y,tw,h,'F')}let x=x0;ls.forEach((l,i)=>{l.forEach((t,j)=>T(t,al[i]?x+ws[i]-2:x+2,y+4.2+j*3.9,{b:bo[i],s:9,a:al[i]?'right':undefined}));x+=ws[i]});y+=h});
+    d.setDrawColor(RED);d.setLineWidth(.21);d.line(x0,y,x0+tw,y)}
+  const half=(CW-6)/2,v=S.hodnoty||{};
+  const blocks=[[['Svetelné vlastnosti','(EN 410 / CIE 015:2018)',v.svetelne],['Akustika','(EN 12758)',v.akustika]],[['Energetické vlastnosti','(EN 410)',v.energeticke],['Bezpečnosť a rozmery','(EN 12600 / EN 356)',v.bezpecnost]]];
+  const est=c=>c.reduce((a,[,,r])=>a+12+(r||[]).length*6.6,0);need(Math.max(est(blocks[0]),est(blocks[1])));
+  const y0=y;let ye=y0;blocks.forEach((col,ci)=>{y=y0;L2=L+ci*(half+6);col.forEach(([t,n,r])=>{if(!r||!r.length)return;h2(t,n);table([half-30,30],null,r,[0,1],[0,1],L2)});ye=Math.max(ye,y)});y=ye;L2=L;
+  if(S.poznamka){const ls=split(S.poznamka,CW,7.8);need(ls.length*3.4+6);y+=6;ls.forEach(l=>{T(l,L,y,{s:7.8,c:GR});y+=3.4})}
+  return d.output('arraybuffer')}
+function rez(d,x0,y0,w,h,V,T,Wd,C){let tot=0;V.forEach(L=>tot+=L.type==='gap'?L.width:L.plies.reduce((a,b)=>a+b,0)+.38*(L.foils||0));if(!tot)return;
+  const m=24,sc=(w-2*m)/tot,top=y0+6,bot=y0+h-14;T('EXTERIÉR',x0+m-3,(top+bot)/2+1,{b:1,s:8,a:'right'});T('INTERIÉR',x0+w-m+3,(top+bot)/2+1,{b:1,s:8});let x=x0+m;
+  for(const L of V){if(L.type==='gap'){const gw=L.width*sc;d.setFillColor('#FBFCFD');d.rect(x,top,gw,bot-top,'F');d.setFillColor('#9AA0A6');d.setDrawColor(C.DARK);d.setLineWidth(.14);d.rect(x+.2,top,gw-.4,6,'FD');d.rect(x+.2,bot-6,gw-.4,6,'FD');T(L.gas_short||'Ar 90 %',x+gw/2,(top+bot)/2+1,{s:7.5,a:'center'});T(String(L.width),x+gw/2,bot+6,{b:1,s:8.5,a:'center'});x+=gw}
+    else{const x1=x,pl=[];L.plies.forEach((p,i)=>{const pw=p*sc;d.setFillColor('#CFE3EC');d.setDrawColor('#7FA6B8');d.setLineWidth(.2);d.rect(x,top-2,pw,bot-top+4,'FD');pl.push([x,x+pw]);x+=pw;if(i<L.plies.length-1&&L.foils){const fw=Math.max(.38*L.foils*sc,.6);d.setFillColor(C.CORAL);d.rect(x,top-2,fw,bot-top+4,'F');x+=fw}});
+      T(L.short,(x1+x)/2,bot+6,{b:1,s:8.5,a:'center'});(L.coating_side||[]).forEach(sd=>{const cx=sd==='right'?pl[pl.length-1][1]:pl[0][0];d.setDrawColor(C.RED);d.setLineWidth(.8);d.line(cx,top-2,cx,bot+2);T(L.coating_pos||'',cx,top-3.4,{b:1,s:7.5,c:C.RED,a:'center'})})}}
+  let lx=x0+m;const ly=y0+h-2;[['#CFE3EC','sklo'],[C.CORAL,'PVB fólia'],[C.RED,'pokovenie (LowE)'],['#9AA0A6','rámik Swisspacer Advance']].forEach(([c,t])=>{d.setFillColor(c);d.rect(lx,ly-2.4,4,2.6,'F');T(t,lx+5.5,ly,{s:7.5});lx+=5.5+Wd(t,7.5)+6})}
+
+async function pdf(id,btn){const S=sheets.get(id);if(!S)return;
+  btn&&(btn.disabled=true);try{const data=await makePDF(S);const fn=`TL_${(S.oznacenie||'sklo')}_${(S.skladba||'').replace(/[^\w.-]+/g,'_')}.pdf`.replace(/_+\.pdf$/,'.pdf');const url=URL.createObjectURL(new Blob([data],{type:'application/pdf'}));const a=document.createElement('a');a.href=url;a.download=fn;document.body.appendChild(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(url),5000)}
+  catch(e){if(e?.code!=='declined')toast(e?.code==='host_unavailable'?'Táto aplikácia nevie ukladať súbory – otvor appku v prehliadači.':'PDF sa nepodarilo vytvoriť.')}finally{btn&&(btn.disabled=false)}}
+
+document.addEventListener('click',e=>{const m=e.target.closest('#mailBtn');if(m&&cur){const body=`Prosím o technický list skla:\n\n${cur.nazov}\nKód/skladba: ${cur.kod}\nVýmenné tabule: ext ${cur.ex.ext||'bez zmeny'}, stred ${cur.ex.stred||'bez zmeny'}, int ${cur.ex.int||'bez zmeny'}\nSkladba: ${cur.skl}\nVyhotovenie: ${($('#vyh')?.value||'').trim()||'–'}\n\nKľúč: ${cur.key}`;m.href='mailto:sliva@glassgallery.sk?subject='+encodeURIComponent('Technický list skla – '+cur.nazov)+'&body='+encodeURIComponent(body);return}
+  const t=e.target.closest('button');if(!t)return;
+  if(t.id==='reqBtn')makeRequest();
+  else if(t.dataset.pdf)pdf(t.dataset.pdf,t);
+  else if(t.dataset.open){const S=sheets.get(t.dataset.open);if(S){['ext','stred','int'].forEach(p=>$('#ex_'+p).value=S[p]||'');if(SKLA.some(x=>x.kod===S.kod)){$('#kod').value=S.kod;setMode('kod')}else{setSkl(S.kod);pick=null;setMode('skl')}scrollTo({top:0,behavior:'smooth'})}}
+  else if(t.dataset.pick){pick=t.dataset.pick;update()}
+  else if(t.id==='mKod')setMode('kod');else if(t.id==='mSkl')setMode('skl');
+  else if(t.dataset.del&&owner){db.collection('requests').doc(t.dataset.del).delete().catch(()=>toast('Nepodarilo sa zmazať.'))}});
+$('#kod').addEventListener('input',update);SEL.forEach(x=>$(x).addEventListener('change',()=>{syncSkl();update()}));['ext','stred','int'].forEach(p=>$('#ex_'+p).addEventListener('change',update));$('#q').addEventListener('input',renderArchive);$('#rw').addEventListener('input',renderArchive);$('#typF').addEventListener('change',renderArchive);
+
+async function init(){
+  try{[SKLA,FUNK]=await Promise.all([fetch('data/skla.json').then(r=>r.json()),fetch('data/funkcne.json').then(r=>r.json())])}catch(e){$('#kodInfo').textContent='Nepodarilo sa načítať zoznam skiel.';return}
+  $('#kody').innerHTML=SKLA.map(s=>`<option value="${esc(s.kod)}">${esc(s.skladba)} · ${esc(s.kat)}</option>`).join('');
+  const groups=[...new Set(FUNK.map(f=>f.group))];const opts='<option value="">— bez zmeny —</option>'+groups.map(g=>`<optgroup label="${esc(g)}">${FUNK.filter(f=>f.group===g).map(f=>`<option>${esc(f.nazov)}</option>`).join('')}</optgroup>`).join('');
+  ['ext','stred','int'].forEach(p=>$('#ex_'+p).innerHTML=opts);
+  const o=(a,dash)=>(dash?'<option value="">—</option>':'')+a.map(v=>`<option>${v}</option>`).join('');const GL=[4,5,6,8,10],GP=[10,12,14,16,18,20,22];
+  $('#s1').innerHTML=$('#s5').innerHTML=o(GL);$('#s3').innerHTML=o(GL,1);$('#s2').innerHTML=o(GP);$('#s4').innerHTML=o(GP,1);setSkl('4-18-4-18-4');
+  let m0='kod';try{m0=localStorage.getItem('gg_tl_mode')||'kod'}catch(e){}
+  const h=decodeURIComponent(location.hash.slice(1));if(h&&/^\d/.test(h)){setSkl(h);m0='skl'}else if(h)$('#kod').value=h;
+  setMode(m0);
+  try{const A=await fetch('data/archiv.json',{cache:'no-cache'}).then(r=>r.json());$('#ver').textContent='archív k '+(A.exported||'');(A.sheets||[]).forEach(x=>{let d=x.data;try{d=expand(d)}catch(e){}sheets.set(x.id,d)})}catch(e){$('#archive').textContent='Archív sa nepodarilo načítať.'}
+  renderArchive();
+  renderResult()}
+init();
+}
+</script>
+</body>
+</html>

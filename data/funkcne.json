@@ -1,0 +1,491 @@
+[
+{
+"nazov": "Cool-Lite SKN 165",
+"plies": [
+6
+],
+"foils": 0,
+"foil": "",
+"esg": false,
+"coat": "COOL-LITE SKN 165",
+"product": "PLANICLEAR",
+"group": "Protislnečné",
+"solar": true,
+"note": ""
+},
+{
+"nazov": "Cool-Lite SKN 165 ESG",
+"plies": [
+6
+],
+"foils": 0,
+"foil": "",
+"esg": true,
+"coat": "COOL-LITE SKN 165 II",
+"product": "PLANICLEAR",
+"group": "Protislnečné",
+"solar": true,
+"note": ""
+},
+{
+"nazov": "Cool-Lite SKN 176",
+"plies": [
+6
+],
+"foils": 0,
+"foil": "",
+"esg": false,
+"coat": "COOL-LITE SKN 176",
+"product": "PLANICLEAR",
+"group": "Protislnečné",
+"solar": true,
+"note": ""
+},
+{
+"nazov": "Cool-Lite SKN 176 ESG",
+"plies": [
+6
+],
+"foils": 0,
+"foil": "",
+"esg": true,
+"coat": "COOL-LITE SKN 176 II",
+"product": "PLANICLEAR",
+"group": "Protislnečné",
+"solar": true,
+"note": ""
+},
+{
+"nazov": "Cool-Lite SKN 176 VSG442",
+"plies": [
+4,
+4
+],
+"foils": 2,
+"foil": "PVB STANDARD",
+"esg": false,
+"coat": "COOL-LITE SKN 176",
+"product": "PLANICLEAR",
+"group": "Protislnečné",
+"solar": true,
+"note": ""
+},
+{
+"nazov": "Cool-Lite SKN 183",
+"plies": [
+6
+],
+"foils": 0,
+"foil": "",
+"esg": false,
+"coat": "COOL-LITE SKN 183",
+"product": "PLANICLEAR",
+"group": "Protislnečné",
+"solar": true,
+"note": ""
+},
+{
+"nazov": "Cool-Lite SKN 183 ESG",
+"plies": [
+6
+],
+"foils": 0,
+"foil": "",
+"esg": true,
+"coat": "COOL-LITE SKN 183 II",
+"product": "PLANICLEAR",
+"group": "Protislnečné",
+"solar": true,
+"note": ""
+},
+{
+"nazov": "Cool-lite Xtreme 61/29 6mm",
+"plies": [
+6
+],
+"foils": 0,
+"foil": "",
+"esg": false,
+"coat": "COOL-LITE XTREME 61-29",
+"product": "PLANICLEAR",
+"group": "Protislnečné",
+"solar": true,
+"note": ""
+},
+{
+"nazov": "Cool-lite Xtreme 61/29 6mm ESG",
+"plies": [
+6
+],
+"foils": 0,
+"foil": "",
+"esg": true,
+"coat": "COOL-LITE XTREME 61-29 II",
+"product": "PLANICLEAR",
+"group": "Protislnečné",
+"solar": true,
+"note": ""
+},
+{
+"nazov": "Stopsol SS clear",
+"plies": [
+6
+],
+"foils": 0,
+"foil": "",
+"esg": false,
+"coat": "STOPSOL SUPERSILVER CLEAR",
+"product": "PLANICLEAR",
+"group": "Protislnečné",
+"solar": true,
+"note": ""
+},
+{
+"nazov": "Stopsol CL bronz",
+"plies": [
+6
+],
+"foils": 0,
+"foil": "",
+"esg": false,
+"coat": "STOPSOL CLASSIC BRONZE",
+"product": "PLANICLEAR",
+"group": "Protislnečné",
+"solar": true,
+"note": ""
+},
+{
+"nazov": "ESG4mm",
+"plies": [
+4
+],
+"foils": 0,
+"foil": "",
+"esg": true,
+"coat": null,
+"product": "PLANICLEAR",
+"group": "Tvrdené (ESG)",
+"solar": false,
+"note": ""
+},
+{
+"nazov": "ESG4mm LowE",
+"plies": [
+4
+],
+"foils": 0,
+"foil": "",
+"esg": true,
+"coat": "LOWE",
+"product": "PLANICLEAR",
+"group": "Tvrdené (ESG)",
+"solar": false,
+"note": ""
+},
+{
+"nazov": "ESG6mm",
+"plies": [
+6
+],
+"foils": 0,
+"foil": "",
+"esg": true,
+"coat": null,
+"product": "PLANICLEAR",
+"group": "Tvrdené (ESG)",
+"solar": false,
+"note": ""
+},
+{
+"nazov": "ESG6mm LowE",
+"plies": [
+6
+],
+"foils": 0,
+"foil": "",
+"esg": true,
+"coat": "LOWE",
+"product": "PLANICLEAR",
+"group": "Tvrdené (ESG)",
+"solar": false,
+"note": ""
+},
+{
+"nazov": "ESG8mm",
+"plies": [
+8
+],
+"foils": 0,
+"foil": "",
+"esg": true,
+"coat": null,
+"product": "PLANICLEAR",
+"group": "Tvrdené (ESG)",
+"solar": false,
+"note": ""
+},
+{
+"nazov": "ESG8mm LowE",
+"plies": [
+8
+],
+"foils": 0,
+"foil": "",
+"esg": true,
+"coat": "LOWE",
+"product": "PLANICLEAR",
+"group": "Tvrdené (ESG)",
+"solar": false,
+"note": ""
+},
+{
+"nazov": "ESG10mm",
+"plies": [
+10
+],
+"foils": 0,
+"foil": "",
+"esg": true,
+"coat": null,
+"product": "PLANICLEAR",
+"group": "Tvrdené (ESG)",
+"solar": false,
+"note": ""
+},
+{
+"nazov": "ESG6mm RAL",
+"plies": [
+6
+],
+"foils": 0,
+"foil": "",
+"esg": true,
+"coat": null,
+"product": "PLANICLEAR",
+"group": "Tvrdené (ESG)",
+"solar": false,
+"note": "Smaltované sklo RAL – v Calumene nie je, počítané ako číre tvrdené."
+},
+{
+"nazov": "Parsol šedý 6mm ESG",
+"plies": [
+6
+],
+"foils": 0,
+"foil": "",
+"esg": true,
+"coat": null,
+"product": "PARSOL GREY",
+"group": "Ostatné",
+"solar": false,
+"note": ""
+},
+{
+"nazov": "SATINOVO Mate 4mm",
+"plies": [
+4
+],
+"foils": 0,
+"foil": "",
+"esg": false,
+"coat": null,
+"product": "SATINOVO MATE",
+"group": "Ostatné",
+"solar": false,
+"note": ""
+},
+{
+"nazov": "Vison clear 4mm (chinchilla)",
+"plies": [
+4
+],
+"foils": 0,
+"foil": "",
+"esg": false,
+"coat": null,
+"product": "PLANICLEAR",
+"group": "Ostatné",
+"solar": false,
+"note": "Ornament Vison – v Calumene nie je, počítané ako PLANICLEAR 4 mm."
+},
+{
+"nazov": "VSG331",
+"plies": [
+3,
+3
+],
+"foils": 1,
+"foil": "PVB STANDARD",
+"esg": false,
+"coat": null,
+"product": "PLANICLEAR",
+"group": "Vrstvené (VSG)",
+"solar": false,
+"note": ""
+},
+{
+"nazov": "VSG331 LowE",
+"plies": [
+3,
+3
+],
+"foils": 1,
+"foil": "PVB STANDARD",
+"esg": false,
+"coat": "LOWE",
+"product": "PLANICLEAR",
+"group": "Vrstvené (VSG)",
+"solar": false,
+"note": ""
+},
+{
+"nazov": "VSG331mat",
+"plies": [
+3,
+3
+],
+"foils": 1,
+"foil": "PVB matná",
+"esg": false,
+"coat": null,
+"product": "PLANICLEAR",
+"group": "Vrstvené (VSG)",
+"solar": false,
+"note": ""
+},
+{
+"nazov": "VSG332",
+"plies": [
+3,
+3
+],
+"foils": 2,
+"foil": "PVB STANDARD",
+"esg": false,
+"coat": null,
+"product": "PLANICLEAR",
+"group": "Vrstvené (VSG)",
+"solar": false,
+"note": ""
+},
+{
+"nazov": "VSG442",
+"plies": [
+4,
+4
+],
+"foils": 2,
+"foil": "PVB STANDARD",
+"esg": false,
+"coat": null,
+"product": "PLANICLEAR",
+"group": "Vrstvené (VSG)",
+"solar": false,
+"note": ""
+},
+{
+"nazov": "VSG442 LowE",
+"plies": [
+4,
+4
+],
+"foils": 2,
+"foil": "PVB STANDARD",
+"esg": false,
+"coat": "LOWE",
+"product": "PLANICLEAR",
+"group": "Vrstvené (VSG)",
+"solar": false,
+"note": ""
+},
+{
+"nazov": "VSG442SI LowE",
+"plies": [
+4,
+4
+],
+"foils": 2,
+"foil": "PVB SILENCE",
+"esg": false,
+"coat": "LOWE",
+"product": "PLANICLEAR",
+"group": "Vrstvené (VSG)",
+"solar": false,
+"note": ""
+},
+{
+"nazov": "VSG444",
+"plies": [
+4,
+4
+],
+"foils": 4,
+"foil": "PVB STANDARD",
+"esg": false,
+"coat": null,
+"product": "PLANICLEAR",
+"group": "Vrstvené (VSG)",
+"solar": false,
+"note": ""
+},
+{
+"nazov": "VSG444 LowE",
+"plies": [
+4,
+4
+],
+"foils": 4,
+"foil": "PVB STANDARD",
+"esg": false,
+"coat": "LOWE",
+"product": "PLANICLEAR",
+"group": "Vrstvené (VSG)",
+"solar": false,
+"note": ""
+},
+{
+"nazov": "VSG446 LowE",
+"plies": [
+4,
+4
+],
+"foils": 6,
+"foil": "PVB STANDARD",
+"esg": false,
+"coat": "LOWE",
+"product": "PLANICLEAR",
+"group": "Vrstvené (VSG)",
+"solar": false,
+"note": ""
+},
+{
+"nazov": "VSG552 LowE",
+"plies": [
+5,
+5
+],
+"foils": 2,
+"foil": "PVB STANDARD",
+"esg": false,
+"coat": "LOWE",
+"product": "PLANICLEAR",
+"group": "Vrstvené (VSG)",
+"solar": false,
+"note": ""
+},
+{
+"nazov": "VSG666 Mirastar",
+"plies": [
+6,
+6
+],
+"foils": 6,
+"foil": "PVB STANDARD",
+"esg": false,
+"coat": null,
+"product": "MIRASTAR",
+"group": "Vrstvené (VSG)",
+"solar": false,
+"note": "Mirastar (zrkadlové) – overiť v Calumene."
+}
+]

@@ -1,0 +1,1282 @@
+[
+{
+"kod": "DS01.24",
+"skladba": "4-16-4",
+"typ": "dvojsklo",
+"kat": "2skloSwU",
+"Ug": "1,1",
+"Rw": "31 (-1;-4)",
+"g": "65",
+"TL": "82"
+},
+{
+"kod": "DS01.26",
+"skladba": "4-18-4",
+"typ": "dvojsklo",
+"kat": "2skloSwU",
+"Ug": "1,1",
+"Rw": "31 (-1;-4)",
+"g": "65",
+"TL": "82"
+},
+{
+"kod": "DS01.28",
+"skladba": "4-20-4",
+"typ": "dvojsklo",
+"kat": "2skloSwU",
+"Ug": "1,1",
+"Rw": "31 (-1;-4)",
+"g": "65",
+"TL": "82"
+},
+{
+"kod": "DS04.24",
+"skladba": "6-14-4",
+"typ": "dvojsklo",
+"kat": "2skloSwU",
+"Ug": "1,1",
+"Rw": "35 (-1;-5)",
+"g": "64",
+"TL": "81"
+},
+{
+"kod": "DS04.26",
+"skladba": "6-16-4",
+"typ": "dvojsklo",
+"kat": "2skloSwU",
+"Ug": "1,1",
+"Rw": "35 (-1;-5)",
+"g": "64",
+"TL": "81"
+},
+{
+"kod": "DS04.30",
+"skladba": "6-20-4",
+"typ": "dvojsklo",
+"kat": "2skloSwU",
+"Ug": "1,1",
+"Rw": "35 (-1;-5)",
+"g": "64",
+"TL": "81"
+},
+{
+"kod": "DS07.26",
+"skladba": "8-14-4",
+"typ": "dvojsklo",
+"kat": "2skloSwU",
+"Ug": "1,1",
+"Rw": "36 (-2;-5)",
+"g": "63",
+"TL": "80"
+},
+{
+"kod": "DS07.28",
+"skladba": "8-16-4",
+"typ": "dvojsklo",
+"kat": "2skloSwU",
+"Ug": "1,1",
+"Rw": "36 (-2;-5)",
+"g": "63",
+"TL": "80"
+},
+{
+"kod": "TS01.40",
+"skladba": "4-14-4-14-4",
+"typ": "trojsklo",
+"kat": "3skloSwU",
+"Ug": "0,6",
+"Rw": "32 (-1;-5)",
+"g": "53",
+"TL": "73"
+},
+{
+"kod": "TS01.44",
+"skladba": "4-16-4-16-4",
+"typ": "trojsklo",
+"kat": "3skloSwU",
+"Ug": "0,6",
+"Rw": "32 (-1;-5)",
+"g": "53",
+"TL": "73"
+},
+{
+"kod": "TS01.48",
+"skladba": "4-18-4-18-4",
+"typ": "trojsklo",
+"kat": "3skloSwU U0.5",
+"Ug": "0,5",
+"Rw": "32 (-1;-5)",
+"g": "73",
+"TL": "76"
+},
+{
+"kod": "TS01.50",
+"skladba": "4-18-4-20-4",
+"typ": "trojsklo",
+"kat": "3skloSwU U0.5",
+"Ug": "0,5",
+"Rw": "34 (-2;-7)",
+"g": "73",
+"TL": "76"
+},
+{
+"kod": "TE01.48",
+"skladba": "4-18-4-18-4",
+"typ": "trojsklo",
+"kat": "3skloSwU U0.5 Eclaz",
+"Ug": "0,5",
+"Rw": "32 (-1;-5)",
+"g": "60",
+"TL": "77"
+},
+{
+"kod": "TS04.42",
+"skladba": "6-14-4-14-4",
+"typ": "trojsklo",
+"kat": "3skloSwU",
+"Ug": "0,6",
+"Rw": "37 (-2;-7)",
+"g": "53",
+"TL": "73"
+},
+{
+"kod": "TS04.44",
+"skladba": "6-16-4-14-4",
+"typ": "trojsklo",
+"kat": "3skloSwU",
+"Ug": "0,6",
+"Rw": "37 (-2;-7)",
+"g": "53",
+"TL": "73"
+},
+{
+"kod": "TS04.48",
+"skladba": "6-18-4-16-4",
+"typ": "trojsklo",
+"kat": "3skloSwU",
+"Ug": "0,6",
+"Rw": "37 (-2;-7)",
+"g": "53",
+"TL": "73"
+},
+{
+"kod": "TS04.50",
+"skladba": "6-18-4-18-4",
+"typ": "trojsklo",
+"kat": "3skloSwU U0.5",
+"Ug": "0,5",
+"Rw": "38 (-2;-7)",
+"g": "53",
+"TL": "73"
+},
+{
+"kod": "TT04.50",
+"skladba": "6ESG-18-4ESG-18-4",
+"typ": "trojsklo",
+"kat": "3skloSwU U0.5 SkloSpoj",
+"Ug": "0,5",
+"Rw": "38 (-2;-7)",
+"g": "52",
+"TL": "72"
+},
+{
+"kod": "TS10.44",
+"skladba": "8-14-4-14-4",
+"typ": "trojsklo",
+"kat": "3skloSwU",
+"Ug": "0,6",
+"Rw": "38 (-3;-8)",
+"g": "51",
+"TL": "73"
+},
+{
+"kod": "TS10.48",
+"skladba": "8-16-4-16-4",
+"typ": "trojsklo",
+"kat": "3skloSwU",
+"Ug": "0,6",
+"Rw": "39 (-3;-7)",
+"g": "51",
+"TL": "73"
+},
+{
+"kod": "TS10.52",
+"skladba": "8-18-4-18-4",
+"typ": "trojsklo",
+"kat": "3skloSwU U0.5",
+"Ug": "0,5",
+"Rw": "39 (-2;-7)",
+"g": "51",
+"TL": "73"
+},
+{
+"kod": "DS02.24",
+"skladba": "4-14-6",
+"typ": "dvojsklo",
+"kat": "2skloSwU",
+"Ug": "1,1",
+"Rw": "35 (-1;-5)",
+"g": "65",
+"TL": "81"
+},
+{
+"kod": "DS02.28",
+"skladba": "4-18-6",
+"typ": "dvojsklo",
+"kat": "2skloSwU",
+"Ug": "1,1",
+"Rw": "35 (-1;-5)",
+"g": "65",
+"TL": "81"
+},
+{
+"kod": "DS05.26",
+"skladba": "6-14-6",
+"typ": "dvojsklo",
+"kat": "2skloSwU",
+"Ug": "1,1",
+"Rw": "33 (-1;-5)",
+"g": "64",
+"TL": "80"
+},
+{
+"kod": "DS05.28",
+"skladba": "6-16-6",
+"typ": "dvojsklo",
+"kat": "2skloSwU",
+"Ug": "1,1",
+"Rw": "33 (-1;-5)",
+"g": "64",
+"TL": "80"
+},
+{
+"kod": "DS05.30",
+"skladba": "6-18-6",
+"typ": "dvojsklo",
+"kat": "2skloSwU",
+"Ug": "1,1",
+"Rw": "33 (-1;-5)",
+"g": "64",
+"TL": "80"
+},
+{
+"kod": "DS05.32",
+"skladba": "6-20-6",
+"typ": "dvojsklo",
+"kat": "2skloSwU",
+"Ug": "1,1",
+"Rw": "33 (-1;-5)",
+"g": "64",
+"TL": "80"
+},
+{
+"kod": "DS08.26",
+"skladba": "8-12-6",
+"typ": "dvojsklo",
+"kat": "2skloSwU",
+"Ug": "1,1",
+"Rw": "36 (-2;-5)",
+"g": "62",
+"TL": "80"
+},
+{
+"kod": "DS08.28",
+"skladba": "8-14-6",
+"typ": "dvojsklo",
+"kat": "2skloSwU",
+"Ug": "1,1",
+"Rw": "36 (-2;-5)",
+"g": "62",
+"TL": "80"
+},
+{
+"kod": "DS08.30",
+"skladba": "8-16-6",
+"typ": "dvojsklo",
+"kat": "2skloSwU",
+"Ug": "1,1",
+"Rw": "36 (-2;-5)",
+"g": "62",
+"TL": "80"
+},
+{
+"kod": "DS10.32",
+"skladba": "10-16-6",
+"typ": "dvojsklo",
+"kat": "2skloSwU",
+"Ug": "1,1",
+"Rw": "39 (-2;-6)",
+"g": "61",
+"TL": "79"
+},
+{
+"kod": "TS02.44",
+"skladba": "4-16-4-14-6",
+"typ": "trojsklo",
+"kat": "3skloSwU",
+"Ug": "0,6",
+"Rw": "37 (-2;-7)",
+"g": "53",
+"TL": "73"
+},
+{
+"kod": "TS02.48",
+"skladba": "4-18-4-16-6",
+"typ": "trojsklo",
+"kat": "3skloSwU",
+"Ug": "0,6",
+"Rw": "37 (-2;-7)",
+"g": "53",
+"TL": "73"
+},
+{
+"kod": "TS02.50",
+"skladba": "4-18-4-18-6",
+"typ": "trojsklo",
+"kat": "3skloSwU U0.5",
+"Ug": "0,5",
+"Rw": "37 (-2;-7)",
+"g": "53",
+"TL": "73"
+},
+{
+"kod": "TS05.44",
+"skladba": "6-14-4-14-6",
+"typ": "trojsklo",
+"kat": "3skloSwU",
+"Ug": "0,6",
+"Rw": "37 (-3;-7)",
+"g": "52",
+"TL": "73"
+},
+{
+"kod": "TS05.46",
+"skladba": "6-16-4-14-6",
+"typ": "trojsklo",
+"kat": "3skloSwU",
+"Ug": "0,6",
+"Rw": "37 (-3;-7)",
+"g": "52",
+"TL": "73"
+},
+{
+"kod": "TS05.48",
+"skladba": "6-16-4-16-6",
+"typ": "trojsklo",
+"kat": "3skloSwU",
+"Ug": "0,6",
+"Rw": "37 (-3;-7)",
+"g": "52",
+"TL": "73"
+},
+{
+"kod": "TT05.48",
+"skladba": "6ESG-16-4ESG-16-6",
+"typ": "trojsklo",
+"kat": "3skloSwU SkloSpoj",
+"Ug": "0,6",
+"Rw": "37 (-3;-7)",
+"g": "52",
+"TL": "73"
+},
+{
+"kod": "TS05.50",
+"skladba": "6-16-4-18-6",
+"typ": "trojsklo",
+"kat": "3skloSwU U0.5",
+"Ug": "0,5",
+"Rw": "38 (-3;-7)",
+"g": "52",
+"TL": "73"
+},
+{
+"kod": "TS05.52",
+"skladba": "6-18-4-18-6",
+"typ": "trojsklo",
+"kat": "3skloSwU U0.5",
+"Ug": "0,5",
+"Rw": "38 (-3;-7)",
+"g": "52",
+"TL": "73"
+},
+{
+"kod": "TS05.60",
+"skladba": "6-22-4-22-6",
+"typ": "trojsklo",
+"kat": "3skloSwU U0.5",
+"Ug": "0,5",
+"Rw": "38 (-3;-7)",
+"g": "52",
+"TL": "73"
+},
+{
+"kod": "TS11.48",
+"skladba": "8-16-4-14-6",
+"typ": "trojsklo",
+"kat": "3skloSwU",
+"Ug": "0,6",
+"Rw": "40 (-2;-6)",
+"g": "51",
+"TL": "72"
+},
+{
+"kod": "TS11.54",
+"skladba": "8-18-4-18-6",
+"typ": "trojsklo",
+"kat": "3skloSwU U0.5",
+"Ug": "0,5",
+"Rw": "42 (-2;-6)",
+"g": "51",
+"TL": "72"
+},
+{
+"kod": "TS08.48",
+"skladba": "6-16-6-14-6",
+"typ": "trojsklo",
+"kat": "3skloSwU",
+"Ug": "0,6",
+"Rw": "35 (-2;-6)",
+"g": "52",
+"TL": "72"
+},
+{
+"kod": "TS08.50",
+"skladba": "6-16-6-16-6",
+"typ": "trojsklo",
+"kat": "3skloSwU",
+"Ug": "0,6",
+"Rw": "35 (-2;-6)",
+"g": "52",
+"TL": "72"
+},
+{
+"kod": "TS08.52",
+"skladba": "6-18-6-16-6",
+"typ": "trojsklo",
+"kat": "3skloSwU U0.5",
+"Ug": "0,5",
+"Rw": "37 (-3;-7)",
+"g": "52",
+"TL": "72"
+},
+{
+"kod": "TS08.54",
+"skladba": "6-18-6-18-6",
+"typ": "trojsklo",
+"kat": "3skloSwU U0.5",
+"Ug": "0,5",
+"Rw": "37 (-3;-7)",
+"g": "52",
+"TL": "72"
+},
+{
+"kod": "TT08.50",
+"skladba": "6ESG-16-6ESG-16-6",
+"typ": "trojsklo",
+"kat": "3skloSwU U0.5 SkloSpoj",
+"Ug": "0,5",
+"Rw": "37 (-3;-7)",
+"g": "52",
+"TL": "72"
+},
+{
+"kod": "TT08.52",
+"skladba": "6ESG-16-6ESG-18-6",
+"typ": "trojsklo",
+"kat": "3skloSwU U0.5 SkloSpoj",
+"Ug": "0,5",
+"Rw": "37 (-3;-7)",
+"g": "52",
+"TL": "72"
+},
+{
+"kod": "TT08.54",
+"skladba": "6ESG-18-6ESG-18-6",
+"typ": "trojsklo",
+"kat": "3skloSwU U0.5 SkloSpoj",
+"Ug": "0,5",
+"Rw": "37 (-3;-7)",
+"g": "52",
+"TL": "72"
+},
+{
+"kod": "TS13.48",
+"skladba": "8-14-6-14-6",
+"typ": "trojsklo",
+"kat": "3skloSwU",
+"Ug": "0,6",
+"Rw": "38 (-1;-5)",
+"g": "51",
+"TL": "72"
+},
+{
+"kod": "TS13.52",
+"skladba": "8-16-6-16-6",
+"typ": "trojsklo",
+"kat": "3skloSwU",
+"Ug": "0,6",
+"Rw": "39 (-1;-5)",
+"g": "51",
+"TL": "72"
+},
+{
+"kod": "TS13.54",
+"skladba": "8-18-6-16-6",
+"typ": "trojsklo",
+"kat": "3skloSwU U0.5",
+"Ug": "0,5",
+"Rw": "40 (-1;-5)",
+"g": "51",
+"TL": "72"
+},
+{
+"kod": "TS13.56",
+"skladba": "8-18-6-18-6",
+"typ": "trojsklo",
+"kat": "3skloSwU U0.5",
+"Ug": "0,5",
+"Rw": "40 (-1;-5)",
+"g": "51",
+"TL": "72"
+},
+{
+"kod": "TE13.56",
+"skladba": "8-18-6-18-6",
+"typ": "trojsklo",
+"kat": "3skloSwU U0.5 Eclaz",
+"Ug": "0,5",
+"Rw": "40 (-1;-5)",
+"g": "57",
+"TL": "75"
+},
+{
+"kod": "DS03.28",
+"skladba": "4-16-8",
+"typ": "dvojsklo",
+"kat": "2skloSwU",
+"Ug": "1,1",
+"Rw": "36 (-2;-6)",
+"g": "65",
+"TL": "80"
+},
+{
+"kod": "DS06.26",
+"skladba": "6-12-8",
+"typ": "dvojsklo",
+"kat": "2skloSwU",
+"Ug": "1,1",
+"Rw": "37 (-1;-5)",
+"g": "77",
+"TL": "81"
+},
+{
+"kod": "DS06.28",
+"skladba": "6-14-8",
+"typ": "dvojsklo",
+"kat": "2skloSwU",
+"Ug": "1,1",
+"Rw": "37 (-1;-5)",
+"g": "77",
+"TL": "81"
+},
+{
+"kod": "DS06.30",
+"skladba": "6-16-8",
+"typ": "dvojsklo",
+"kat": "2skloSwU",
+"Ug": "1,1",
+"Rw": "37 (-1;-5)",
+"g": "77",
+"TL": "81"
+},
+{
+"kod": "DS06.32",
+"skladba": "6-18-8",
+"typ": "dvojsklo",
+"kat": "2skloSwU",
+"Ug": "1,1",
+"Rw": "37 (-1;-5)",
+"g": "77",
+"TL": "81"
+},
+{
+"kod": "DB06.42",
+"skladba": "6-16-442s",
+"typ": "dvojsklo",
+"kat": "2skloSwU dB",
+"Ug": "1,1",
+"Rw": "42 (-2;-7)",
+"g": "64",
+"TL": "80"
+},
+{
+"kod": "DT06.28",
+"skladba": "6ESG-14-8",
+"typ": "dvojsklo",
+"kat": "2skloSwU SkloSpoj",
+"Ug": "1,1",
+"Rw": "37 (-1;-5)",
+"g": "77",
+"TL": "81"
+},
+{
+"kod": "DS09.28",
+"skladba": "8-12-8",
+"typ": "dvojsklo",
+"kat": "2skloSwU",
+"Ug": "1,1",
+"Rw": "36 (-2;-5)",
+"g": "62",
+"TL": "79"
+},
+{
+"kod": "DS09.30",
+"skladba": "8-14-8",
+"typ": "dvojsklo",
+"kat": "2skloSwU",
+"Ug": "1,1",
+"Rw": "36 (-2;-5)",
+"g": "62",
+"TL": "79"
+},
+{
+"kod": "DS09.32",
+"skladba": "8-16-8",
+"typ": "dvojsklo",
+"kat": "2skloSwU",
+"Ug": "1,1",
+"Rw": "36 (-2;-5)",
+"g": "62",
+"TL": "79"
+},
+{
+"kod": "DT09.36",
+"skladba": "8ESG-20-8ESG",
+"typ": "dvojsklo",
+"kat": "2skloSwU SkloSpoj",
+"Ug": "1,1",
+"Rw": "36 (-2;-5)",
+"g": "62",
+"TL": "79"
+},
+{
+"kod": "DS11.32",
+"skladba": "10-14-8",
+"typ": "dvojsklo",
+"kat": "2skloSwU",
+"Ug": "1,1",
+"Rw": "40 (-1;-5)",
+"g": "61",
+"TL": "79"
+},
+{
+"kod": "TS03.44",
+"skladba": "4-14-4-14-8",
+"typ": "trojsklo",
+"kat": "3skloSwU",
+"Ug": "0,6",
+"Rw": "38 (-3;-8)",
+"g": "53",
+"TL": "73"
+},
+{
+"kod": "TS03.46",
+"skladba": "4-16-4-14-8",
+"typ": "trojsklo",
+"kat": "3skloSwU",
+"Ug": "0,6",
+"Rw": "38 (-3;-8)",
+"g": "53",
+"TL": "73"
+},
+{
+"kod": "TS03.48",
+"skladba": "4-16-4-16-8",
+"typ": "trojsklo",
+"kat": "3skloSwU",
+"Ug": "0,6",
+"Rw": "39 (-3;-7)",
+"g": "53",
+"TL": "73"
+},
+{
+"kod": "TS03.50",
+"skladba": "4-18-4-16-8",
+"typ": "trojsklo",
+"kat": "3skloSwU",
+"Ug": "0,6",
+"Rw": "39 (-3;-7)",
+"g": "53",
+"TL": "73"
+},
+{
+"kod": "TS03.52",
+"skladba": "4-18-4-18-8",
+"typ": "trojsklo",
+"kat": "3skloSwU U0.5",
+"Ug": "0,5",
+"Rw": "39 (-2;-7)",
+"g": "53",
+"TL": "73"
+},
+{
+"kod": "TB03.52",
+"skladba": "4-18-4-18-VSG441SI",
+"typ": "trojsklo",
+"kat": "3skloSwU U0.5 dB",
+"Ug": "0,5",
+"Rw": "41 (-1;-6)",
+"g": "53",
+"TL": "73"
+},
+{
+"kod": "TB03.53",
+"skladba": "4-18-4-18-VSG442",
+"typ": "trojsklo",
+"kat": "3skloSwU U0.5 dB",
+"Ug": "0,5",
+"Rw": "40 (-2;-6)",
+"g": "53",
+"TL": "73"
+},
+{
+"kod": "TS06.46",
+"skladba": "6-14-4-14-8",
+"typ": "trojsklo",
+"kat": "3skloSwU",
+"Ug": "0,6",
+"Rw": "40 (-2;-6)",
+"g": "52",
+"TL": "72"
+},
+{
+"kod": "TS06.48",
+"skladba": "6-16-4-14-8",
+"typ": "trojsklo",
+"kat": "3skloSwU",
+"Ug": "0,6",
+"Rw": "40 (-2;-6)",
+"g": "52",
+"TL": "72"
+},
+{
+"kod": "TS06.50",
+"skladba": "6-16-4-16-8",
+"typ": "trojsklo",
+"kat": "3skloSwU",
+"Ug": "0,6",
+"Rw": "40 (-2;-6)",
+"g": "52",
+"TL": "72"
+},
+{
+"kod": "TB06.42",
+"skladba": "6-12-4-12-VSG442si",
+"typ": "trojsklo",
+"kat": "3skloSwU dB",
+"Ug": "0,6",
+"Rw": "43 (-2;-7)",
+"g": "52",
+"TL": "72"
+},
+{
+"kod": "TB06.48",
+"skladba": "6-16-4-14-VSG441si",
+"typ": "trojsklo",
+"kat": "3skloSwU dB",
+"Ug": "0,6",
+"Rw": "43 (-2;-7)",
+"g": "52",
+"TL": "72"
+},
+{
+"kod": "TB06.51",
+"skladba": "6-16-4-16-VSG442",
+"typ": "trojsklo",
+"kat": "3skloSwU dB",
+"Ug": "0,6",
+"Rw": "40 (-2;-6)",
+"g": "52",
+"TL": "72"
+},
+{
+"kod": "TS06.52",
+"skladba": "6-18-4-16-8",
+"typ": "trojsklo",
+"kat": "3skloSwU U0.5",
+"Ug": "0,5",
+"Rw": "42 (-2;-6)",
+"g": "52",
+"TL": "72"
+},
+{
+"kod": "TS06.54",
+"skladba": "6-18-4-18-8",
+"typ": "trojsklo",
+"kat": "3skloSwU U0.5",
+"Ug": "0,5",
+"Rw": "42 (-2;-6)",
+"g": "52",
+"TL": "72"
+},
+{
+"kod": "TB06.53",
+"skladba": "6-16-4-18-VSG442",
+"typ": "trojsklo",
+"kat": "3skloSwU U0.5 dB",
+"Ug": "0,5",
+"Rw": "42 (-2;-6)",
+"g": "52",
+"TL": "72"
+},
+{
+"kod": "TB06.54",
+"skladba": "6-18-4-18-VSG441si",
+"typ": "trojsklo",
+"kat": "3skloSwU U0.5 dB",
+"Ug": "0,5",
+"Rw": "44 (-2;-7)",
+"g": "52",
+"TL": "72"
+},
+{
+"kod": "TB06.55",
+"skladba": "6-18-4-18-VSG442",
+"typ": "trojsklo",
+"kat": "3skloSwU U0.5 dB",
+"Ug": "0,5",
+"Rw": "43 (-2;-6)",
+"g": "52",
+"TL": "72"
+},
+{
+"kod": "TTB06.54",
+"skladba": "6-18-4-18-VSG441si",
+"typ": "trojsklo",
+"kat": "3skloSwU U0.5 SkloSpoj dB",
+"Ug": "0,5",
+"Rw": "44 (-2;-7)",
+"g": "52",
+"TL": "72"
+},
+{
+"kod": "TS12.48",
+"skladba": "8-14-4-14-8",
+"typ": "trojsklo",
+"kat": "3skloSwU",
+"Ug": "0,6",
+"Rw": "",
+"g": "51",
+"TL": "72"
+},
+{
+"kod": "TB07.49",
+"skladba": "8-14-4-14-VSG442SI",
+"typ": "trojsklo",
+"kat": "3skloSwU dB",
+"Ug": "0,6",
+"Rw": "45 (-2;-7)",
+"g": "51",
+"TL": "72"
+},
+{
+"kod": "TS12.56",
+"skladba": "8-18-4-18-8",
+"typ": "trojsklo",
+"kat": "3skloSwU U0.5",
+"Ug": "0,5",
+"Rw": "",
+"g": "48",
+"TL": "71"
+},
+{
+"kod": "TS09.48",
+"skladba": "6-14-6-14-8",
+"typ": "trojsklo",
+"kat": "3skloSwU",
+"Ug": "0,6",
+"Rw": "38 (-1;-5)",
+"g": "51",
+"TL": "72"
+},
+{
+"kod": "TS09.50",
+"skladba": "6-16-6-14-8",
+"typ": "trojsklo",
+"kat": "3skloSwU",
+"Ug": "0,6",
+"Rw": "39 (-1;-5)",
+"g": "52",
+"TL": "72"
+},
+{
+"kod": "TS09.52",
+"skladba": "6-16-6-16-8",
+"typ": "trojsklo",
+"kat": "3skloSwU",
+"Ug": "0,6",
+"Rw": "39 (-1;-5)",
+"g": "52",
+"TL": "72"
+},
+{
+"kod": "TB09.53",
+"skladba": "6-18-6-14-VSG442",
+"typ": "trojsklo",
+"kat": "3skloSwU dB",
+"Ug": "0,6",
+"Rw": "41 (-2;-6)",
+"g": "52",
+"TL": "72"
+},
+{
+"kod": "TS09.54",
+"skladba": "6-18-6-16-8",
+"typ": "trojsklo",
+"kat": "3skloSwU U0.5",
+"Ug": "0,5",
+"Rw": "39 (-1;-5)",
+"g": "52",
+"TL": "72"
+},
+{
+"kod": "TS09.56",
+"skladba": "6-18-6-18-8",
+"typ": "trojsklo",
+"kat": "3skloSwU U0.5",
+"Ug": "0,5",
+"Rw": "40 (-1;-5)",
+"g": "51",
+"TL": "72"
+},
+{
+"kod": "TT09.54",
+"skladba": "6ESG-18-6ESG-16-8",
+"typ": "trojsklo",
+"kat": "3skloSwU U0.5 SkloSpoj",
+"Ug": "0,5",
+"Rw": "40 (-1;-5)",
+"g": "52",
+"TL": "71"
+},
+{
+"kod": "TT09.56",
+"skladba": "6ESG-18-6ESG-18-8",
+"typ": "trojsklo",
+"kat": "3skloSwU U0.5 SkloSpoj",
+"Ug": "0,5",
+"Rw": "40 (-1;-5)",
+"g": "52",
+"TL": "71"
+},
+{
+"kod": "TS14.48",
+"skladba": "8-14-6-12-8",
+"typ": "trojsklo",
+"kat": "3skloSwU",
+"Ug": "0,6",
+"Rw": "39 (-2;-5)",
+"g": "51",
+"TL": "71"
+},
+{
+"kod": "TS14.50",
+"skladba": "8-14-6-14-8",
+"typ": "trojsklo",
+"kat": "3skloSwU",
+"Ug": "0,6",
+"Rw": "38 (-1;-5)",
+"g": "51",
+"TL": "71"
+},
+{
+"kod": "TS14.52",
+"skladba": "8-16-6-14-8",
+"typ": "trojsklo",
+"kat": "3skloSwU",
+"Ug": "0,6",
+"Rw": "38 (-1;-5)",
+"g": "51",
+"TL": "71"
+},
+{
+"kod": "TS14.54",
+"skladba": "8-16-6-16-8",
+"typ": "trojsklo",
+"kat": "3skloSwU",
+"Ug": "0,6",
+"Rw": "38 (-1;-5)",
+"g": "51",
+"TL": "71"
+},
+{
+"kod": "TT14.50",
+"skladba": "8ESG-14-6ESG-14-8",
+"typ": "trojsklo",
+"kat": "3skloSwU SkloSpoj",
+"Ug": "0,6",
+"Rw": "39 (-2;-5)",
+"g": "51",
+"TL": "71"
+},
+{
+"kod": "TS14.56",
+"skladba": "8-18-6-16-8",
+"typ": "trojsklo",
+"kat": "3skloSwU U0.5",
+"Ug": "0,5",
+"Rw": "39 (-2;-5)",
+"g": "51",
+"TL": "71"
+},
+{
+"kod": "TS14.58",
+"skladba": "8-18-6-18-8",
+"typ": "trojsklo",
+"kat": "3skloSwU U0.5",
+"Ug": "0,5",
+"Rw": "39 (-2;-5)",
+"g": "51",
+"TL": "71"
+},
+{
+"kod": "TT14.58",
+"skladba": "8ESG-18-6ESG-18-8",
+"typ": "trojsklo",
+"kat": "3skloSwU U0.5 SkloSpoj",
+"Ug": "0,5",
+"Rw": "39 (-2;-5)",
+"g": "51",
+"TL": "71"
+},
+{
+"kod": "TX14.58",
+"skladba": "8-18-6-18-8",
+"typ": "trojsklo",
+"kat": "3skloSwU U0.5 Struktura",
+"Ug": "0,5",
+"Rw": "39 (-2;-5)",
+"g": "51",
+"TL": "71"
+},
+{
+"kod": "TS20.48",
+"skladba": "6-14-8-12-8",
+"typ": "trojsklo",
+"kat": "3skloSwU",
+"Ug": "0,6",
+"Rw": "38 (-1;-5)",
+"g": "51",
+"TL": "72"
+},
+{
+"kod": "TT20.50",
+"skladba": "6ESG-14-8ESG-14-8",
+"typ": "trojsklo",
+"kat": "3skloSwU SkloSpoj",
+"Ug": "0,6",
+"Rw": "39 (-2;-5)",
+"g": "51",
+"TL": "71"
+},
+{
+"kod": "TX20.58",
+"skladba": "6-18-8-18-8",
+"typ": "trojsklo",
+"kat": "3skloSwU U0.5 Struktura",
+"Ug": "0,5",
+"Rw": "39 (-2;-5)",
+"g": "51",
+"TL": "71"
+},
+{
+"kod": "TS15.48",
+"skladba": "8-12-8-12-8",
+"typ": "trojsklo",
+"kat": "3skloSwU",
+"Ug": "0,6",
+"Rw": "38 (-2;-5)",
+"g": "51",
+"TL": "71"
+},
+{
+"kod": "TS15.50",
+"skladba": "8-12-8-14-8",
+"typ": "trojsklo",
+"kat": "3skloSwU",
+"Ug": "0,6",
+"Rw": "38 (-2;-5)",
+"g": "51",
+"TL": "71"
+},
+{
+"kod": "TS15.52",
+"skladba": "8-14-8-14-8",
+"typ": "trojsklo",
+"kat": "3skloSwU",
+"Ug": "0,6",
+"Rw": "38 (-2;-5)",
+"g": "51",
+"TL": "71"
+},
+{
+"kod": "TS15.54",
+"skladba": "8-16-8-14-8",
+"typ": "trojsklo",
+"kat": "3skloSwU",
+"Ug": "0,6",
+"Rw": "38 (-1;-5)",
+"g": "51",
+"TL": "71"
+},
+{
+"kod": "TS15.56",
+"skladba": "8-16-8-16-8",
+"typ": "trojsklo",
+"kat": "3skloSwU",
+"Ug": "0,6",
+"Rw": "38 (-1;-5)",
+"g": "51",
+"TL": "71"
+},
+{
+"kod": "TS17.56",
+"skladba": "10-16-8-14-8",
+"typ": "trojsklo",
+"kat": "3skloSwU",
+"Ug": "0,6",
+"Rw": "",
+"g": "50",
+"TL": "70"
+},
+{
+"kod": "TT17.56",
+"skladba": "10ESG-16-8ESG-14-8",
+"typ": "trojsklo",
+"kat": "3skloSwU SkloSpoj",
+"Ug": "0,6",
+"Rw": "40 (-1;-5)",
+"g": "50",
+"TL": "70"
+},
+{
+"kod": "TS17.62",
+"skladba": "10-18-8-18-8",
+"typ": "trojsklo",
+"kat": "3skloSwU U0.5",
+"Ug": "0,5",
+"Rw": "",
+"g": "50",
+"TL": "70"
+},
+{
+"kod": "DS13.34",
+"skladba": "8-16-10",
+"typ": "dvojsklo",
+"kat": "2skloSwU",
+"Ug": "1,1",
+"Rw": "40 (-1;-5)",
+"g": "61",
+"TL": "79"
+},
+{
+"kod": "DS12.36",
+"skladba": "10-16-10",
+"typ": "dvojsklo",
+"kat": "2skloSwU",
+"Ug": "1,1",
+"Rw": "38 (-2;-4)",
+"g": "61",
+"TL": "79"
+},
+{
+"kod": "TS07.52",
+"skladba": "6-16-4-16-10",
+"typ": "trojsklo",
+"kat": "3skloSwU",
+"Ug": "0,6",
+"Rw": "40 (-2;-6)",
+"g": "52",
+"TL": "72"
+},
+{
+"kod": "TS23.54",
+"skladba": "6-16-6-16-10",
+"typ": "trojsklo",
+"kat": "3skloSwU",
+"Ug": "0,6",
+"Rw": "39 (-1;-5)",
+"g": "52",
+"TL": "72"
+},
+{
+"kod": "TS22.56",
+"skladba": "8-16-6-16-10",
+"typ": "trojsklo",
+"kat": "3skloSwU",
+"Ug": "0,6",
+"Rw": "",
+"g": "50",
+"TL": "70"
+},
+{
+"kod": "TS16.58",
+"skladba": "10-16-6-16-10",
+"typ": "trojsklo",
+"kat": "3skloSwU",
+"Ug": "0,6",
+"Rw": "",
+"g": "50",
+"TL": "70"
+},
+{
+"kod": "TS21.54",
+"skladba": "8-14-8-14-10",
+"typ": "trojsklo",
+"kat": "3skloSwU",
+"Ug": "0,6",
+"Rw": "",
+"g": "50",
+"TL": "70"
+},
+{
+"kod": "TS18.50",
+"skladba": "10-12-8-10-10",
+"typ": "trojsklo",
+"kat": "3skloSwU",
+"Ug": "0,6",
+"Rw": "",
+"g": "50",
+"TL": "70"
+},
+{
+"kod": "TS18.56",
+"skladba": "10-14-8-14-10",
+"typ": "trojsklo",
+"kat": "3skloSwU",
+"Ug": "0,6",
+"Rw": "",
+"g": "50",
+"TL": "70"
+},
+{
+"kod": "TT18.56",
+"skladba": "10ESG-14-8ESG-14-10",
+"typ": "trojsklo",
+"kat": "3skloSwU SkloSpoj",
+"Ug": "0,6",
+"Rw": "40 (-1;-5)",
+"g": "50",
+"TL": "70"
+},
+{
+"kod": "TS19.58",
+"skladba": "10-14-10-14-10",
+"typ": "trojsklo",
+"kat": "3skloSwU",
+"Ug": "0,6",
+"Rw": "",
+"g": "50",
+"TL": "70"
+}
+]
